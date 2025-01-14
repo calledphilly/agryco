@@ -1,0 +1,13 @@
+services:
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: agryco_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_agryco:/var/lib/postgresql/data
+volumes:
+  db_agryco:

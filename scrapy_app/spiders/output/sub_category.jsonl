@@ -1,0 +1,688 @@
+{"url": "/atelier/adblue/pc8867", "name": "Adblue - Fût , IBC et Bidons", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/antigel-liquide-refroidissement/pc8868", "name": "Antigel et liquide de refroidissement", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/camera-surveillance/pc8935", "name": "Caméra de surveillance", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/chauffage-atelier/pc8869", "name": "Chauffage d'atelier", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/compresseur/pc8870", "name": "Compresseur d'air", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/graisse-agricole/pc8871", "name": "Graisse agricole - Dégrippant", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/huile-tracteur/bac-de-retention/pc8956", "name": "Bac de rétention", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/huile-tracteur/distributeur-huile/pc8879", "name": "Distributeur d'huile pour tracteur", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/huile-tracteur/huile-hydraulique/pc8880", "name": "Huile hydraulique", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/huile-tracteur/huile-moteur/pc8881", "name": "Huile moteur", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/huile-tracteur/huile-multi-fonctions/pc8955", "name": "Huile multifonctions", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/huile-tracteur/huile-transmission/pc8882", "name": "Huile transmission", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/materiel-d-atelier/eclairage/pc8944", "name": "Eclairage", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/materiel-d-atelier/Equipement-outillage-fixe/pc8948", "name": "Equipement & outillage fixe", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/materiel-d-atelier/mobilier--and--rangement/pc8945", "name": "Mobilier & rangement", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/materiel-d-atelier/nettoyage/pc8949", "name": "Nettoyage", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/materiel-d-atelier/peinture--and--antirouille/pc8950", "name": "Peinture & antirouille", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/materiel-d-atelier/sol-bardage/pc8947", "name": "Sol, bardage", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/materiel-d-atelier/surveillance-securite/pc8946", "name": "Surveillance sécurité", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/materiel-levage-et-manutention/chandelle-tracteur/pc8883", "name": "Chandelle de levage", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/materiel-levage-et-manutention/chariot/pc8884", "name": "Chariot", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/materiel-levage-et-manutention/cric/pc8885", "name": "Cric - Manuel et hydraulique", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/materiel-levage-et-manutention/diable/pc8886", "name": "Diable - élévateur", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/materiel-levage-et-manutention/echelles--echafaudage/pc8951", "name": "Echelles, échafaudage", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/materiel-levage-et-manutention/materiel-divers/pc8954", "name": "Matériel divers", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/materiel-levage-et-manutention/sangle/pc8887", "name": "Sangle - Arrimage, polyester, cliquet", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/materiel-levage-et-manutention/transpalette/pc8888", "name": "Transpalette", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/nettoyeur-haute-pression/pc8874", "name": "Nettoyeur haute pression", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/outillage/electricite/pc8953", "name": "Electricité", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/outillage/outillage-pneumatique/pc8891", "name": "Outillage pneumatique", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/outillage/outillage-a-main/pc8889", "name": "Outillage à main", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/outillage/outillage-electrique/pc8890", "name": "Outillage électrique", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/outillage/tuyaux-et-gaines/pc8952", "name": "Tuyaux et gaines", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/produit-hygiene/pc8876", "name": "Produit d'hygiène Agricole", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/quincaillerie/pc8877", "name": "Quincaillerie", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/servantes-atelier/pc8878", "name": "Servantes d'atelier", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/atelier/station-meteo/pc8936", "name": "Station météo, outils de mesure", "super_category_url": "/atelier/pc619", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/bineuse---houe-et-herse-etrille/pc2991", "name": "Bineuse - Houe et herse etrille", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/boulonnerie/pc2989", "name": "Boulonnerie", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/charrue/autres/pc5649", "name": "Autres", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/charrue/boulonnerie/pc5646", "name": "Boulonnerie", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/charrue/cales/pc5640", "name": "Cales", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/charrue/carrelets/pc5610", "name": "Carrelets", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/charrue/contre-sep/pc5622", "name": "Contre sep", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/charrue/corps-complet/pc5643", "name": "Corps complet", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/charrue/coutres-et-ailerons/pc5628", "name": "Coutres et ailerons", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/charrue/deflecteur/pc5631", "name": "Déflecteur", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/charrue/etraves/pc5619", "name": "Etraves", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/charrue/lame-claire-voie/pc7982", "name": "Lame claire voie", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/charrue/pointes/pc5613", "name": "Pointes", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/charrue/soc-de-rasette/pc5634", "name": "Soc de rasette", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/charrue/soc/pc5607", "name": "Soc", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/charrue/talons/pc5625", "name": "Talons", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/charrue/versoir-de-rasette/pc5637", "name": "Versoir de rasette", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/charrue/versoirs/pc5616", "name": "Versoirs", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/dechaumeur---cultivateur/arbre/pc5691", "name": "Arbre de cover crop", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/dechaumeur---cultivateur/pi%C3%A8ces/pc5700", "name": "Autres pièces", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/dechaumeur---cultivateur/bride-fixation/pc7604", "name": "Brides de fixation", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/couteaux-de-beches-rotatives/pc7441", "name": "Couteaux de bêches rotatives", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/dechaumeur---cultivateur/deflecteur/pc5694", "name": "Deflecteur", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/dechaumeur---cultivateur/dent-ressorts/pc8019", "name": "Dent à ressort", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/dechaumeur---cultivateur/dent-spire/pc5679", "name": "Dent à spire", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/dechaumeur---cultivateur/disque/pc5682", "name": "Disque", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/dechaumeur---cultivateur/grattoir/pc5685", "name": "Grattoir", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/dechaumeur---cultivateur/pallier/pc5688", "name": "Palier", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/dechaumeur---cultivateur/ressort-lame/pc8020", "name": "Ressort à lame", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/dechaumeur---cultivateur/Ressort-spirale/pc7581", "name": "Ressort à spirale", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/dechaumeur---cultivateur/soc-double-coeur/pc8018", "name": "Soc double coeur", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/dechaumeur---cultivateur/soc-patte-oie/pc8016", "name": "Soc patte d'oie", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/dechaumeur---cultivateur/soc-reversible/pc8017", "name": "Soc réversible", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/dechaumeur---cultivateur/soc-ailes/pc5676", "name": "Soc à ailettes", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/decompacteur/pointe/pc5706", "name": "Pointe", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/decompacteur/protecton-et-plaque-d-usure/pc5712", "name": "Protection et plaque d'usure", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/decompacteur/soc/pc5703", "name": "Soc", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/fraise---rotalabour/pc2988", "name": "Fraise - Rotalabour", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/herse-de-prairie/pc2995", "name": "Herse de prairie", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/herse-rotative/autre-4/pc6712", "name": "Autre", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/herse-rotative/bague-et-douille/pc6709", "name": "Bague et douille", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/herse-rotative/boulonnerie/pc5673", "name": "Boulonnerie", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/herse-rotative/dent/pc5652", "name": "Dent", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/herse-rotative/deflecteur-et-protection/pc6710", "name": "Déflecteur et protection", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/herse-rotative/goupille-et-boulon/pc5655", "name": "Goupille et boulon", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/herse-rotative/autre/pc5670", "name": "Grattoir", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/herse-rotative/joint/pc5658", "name": "Joint", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/herse-rotative/pignon-et-axe/pc5667", "name": "Pignon et axe", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/herse-rotative/roulement---palier/pc5661", "name": "Roulement / palier", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/herse-rotative/support-de-dent/pc5664", "name": "Support de dent", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/outil-de-plombage/pc2992", "name": "Outil de plombage", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/pieces-carbures/contre-sep/pc5736", "name": "Contre sep", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/pieces-carbures/dent-de-herse/pc5721", "name": "Dent de herse", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/pieces-carbures/etrave/pc5739", "name": "Etrave", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/pieces-carbures/grattoir/pc5730", "name": "Grattoir", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/pieces-carbures/lame-et-soc-de-decompacteur/pc5745", "name": "Lame et soc de décompacteur", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/pieces-carbures/mise-a-souder/pc5733", "name": "Mise à souder", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/pieces-carbures/pointe-de-charrue/pc5727", "name": "Pointe de charrue", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/pieces-carbures/soc-de-charrue/pc5724", "name": "Soc de charrue", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/pieces-carbures/soc-de-dechaumeur/pc5742", "name": "Soc de dechaumeur", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/vibroculteur/boulonnerie/pc5769", "name": "Boulonnerie", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/vibroculteur/bride/pc5763", "name": "Bride", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/vibroculteur/ressort/pc5760", "name": "Ressort", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/vibroculteur/soc-double-coeur/pc8021", "name": "Soc double coeur", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/vibroculteur/soc-patte-d-oie/pc5766", "name": "Soc patte d'oie", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/vibroculteur/soc-reversible/pc5754", "name": "Soc réversible", "super_category_url": "/pieces-agricoles/travail-du-sol/pc2976", "state": "sub_category"}
+{"url": "/materiel-agricole/anti-nuisibles/anti-insectes/pc8903", "name": "Anti-insecte", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/anti-nuisibles/anti-rongeurs/pc8904", "name": "Anti-rongeurs", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/anti-nuisibles/effaroucheurs/pc8905", "name": "Effaroucheurs", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/armoire-phytosanitaire/pc8899", "name": "Armoires phyto", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/big-bags/pc8893", "name": "Big Bag Agricole", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/clotures-et-grillages/pc8942", "name": "Clotures et grillages", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/colonne-ventilation/pc8894", "name": "Colonne de ventilation", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/controleur-humidite/pc8895", "name": "Contrôleur d'humidité", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/cuves/accessoires-cuves/pc8940", "name": "Accessoires cuves", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/cuves/citerne-souple/pc8906", "name": "Citerne souple", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/cuves/cuves-adblue/pc8907", "name": "Cuve adblue", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/cuves/cuves-engrais-liquide/pc8909", "name": "Cuve engrais liquide", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/cuves/cuves-gasoil/pc8910", "name": "Cuve gasoil", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/cuves/cuves-a-eau/pc8908", "name": "Cuve à eau", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/epandeur/pc8934", "name": "Epandeur", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/irrigation-agricole/aspersion/pc8911", "name": "Aspersion", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/irrigation-agricole/canon-irrigation/pc8912", "name": "Canon irrigation", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/irrigation-agricole/compteur-eau-irrigation/pc8913", "name": "Compteur d'eau irrigation", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/irrigation-agricole/filtre-irrigation-agricole/pc8915", "name": "Filtre irrigation agricole", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/irrigation-agricole/goutteur/pc8916", "name": "Goutteur", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/irrigation-agricole/raccord-irrigation/pc8918", "name": "Raccords irrigation", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/irrigation-agricole/tuyaux-irrigation/pc8919", "name": "Tuyaux irrigation", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/irrigation-agricole/vanne-irrigation-agricole/pc8920", "name": "Vanne irrigation agricole", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/local-phyto/pc8898", "name": "Local phyto", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/materiel-forestier/pc8939", "name": "Materiel forestier", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/pompes-agricole/pompe-adblue/pc8921", "name": "Pompes adblue", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/pompes-agricole/pompe-a-gasoil/pc8923", "name": "Pompes a gasoil", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/pompes-agricole/pompe-engrais-liquide/pc8925", "name": "Pompes engrais liquide", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/pompes-agricole/pompe-a-eau/pc8922", "name": "Pompes à eau", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/pompes-agricole/pompe-a-graisse/pc8924", "name": "Pompes à graisse", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/pulverisateurs/pc8941", "name": "Pulvérisateurs", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/tremies-agricoles/pc8901", "name": "Trémies Agricoles", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/vetement-agricole/botte-agricole/pc8926", "name": "Bottes agricole", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/vetement-agricole/casque-protection/pc8927", "name": "Casque de protection", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/vetement-agricole/combinaison-agricole/pc8928", "name": "Combinaison agricole", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/vetement-agricole/gants-protection/pc8929", "name": "Gant de protection", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/vetement-agricole/lunettes-protection/pc8930", "name": "Lunette de protection", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/vetement-agricole/masque-protection/pc8931", "name": "Masque de protection", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/vetement-agricole/pantalon-travail/pc8932", "name": "Pantalon de travail", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/materiel-agricole/vetement-agricole/veste-agricole/pc8933", "name": "Veste agricole", "super_category_url": "/materiel-agricole/pc7635", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/accessoires/pc3340", "name": "Accessoires", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/alternateur/pc3038", "name": "Alternateur", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/barre-de-guidage/pc8860", "name": "Barre de guidage", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/buses/pc3026", "name": "Buses", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/demarreur/pc3348", "name": "Démarreur", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/eclairage---signalisation/pc3035", "name": "Eclairage - Signalisation", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/ecrous/pc8009", "name": "Ecrous de buse", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/filtration/autres-filtres/pc6165", "name": "Autres filtres", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/filtration/filtres-d-aspiration/pc7864", "name": "Filtres d'aspiration", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/filtration/filtres-de-buse/pc7866", "name": "Filtres de buse", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/filtration/filtres-de-refoulement/pc7865", "name": "Filtres de refoulement", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/filtration/crepines-et-filtres-de-remplissage/pc7862", "name": "filtres de remplissage", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/filtration/filtres-de-troncons/pc7863", "name": "Filtres de tronçon", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/filtration/filtre-a-charbon-actif/pc7597", "name": "Filtre à charbon actif", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/garde-boue-4/pc7083", "name": "Garde boue", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/incorporateurs/pc3044", "name": "Incorporateurs", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/joints-et-etancheite/pc3339", "name": "Joints et étanchéité", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/debimetre/debitmetre/pc8715", "name": "Débitmètre", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/debimetre/manometre-et-capteur-de-pression/pc8511", "name": "Manomètre", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/debimetre/debimetre-et-volucompteur/pc8510", "name": "Volucompteur", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/pieces-detachees-de-pompes/pc7908", "name": "Pièces pompe pulvérisateur", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/capteurs---mesures/pc3034", "name": "Pièces électronique", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/pneumatiques/pc3050", "name": "Pneu pulvérisateur", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/pompe-electrique/pc7525", "name": "Pompe Electrique", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/pompes/pc3029", "name": "Pompes", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/porte-buse/pc3027", "name": "Porte-buses", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/produit-entretien-pulverisateur/pc7599", "name": "Produit entretien pulvérisateur", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/pulverisation-pour-micro-tracteur-et-quad/pc3344", "name": "Pulvérisateur pour quad", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/raccords/raccords-din/pc7890", "name": "Raccords galva", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/raccords/raccords-inox/pc7891", "name": "Raccords inox", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/raccords/raccords-laiton/pc7893", "name": "Raccords laiton", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/raccords/raccords-plastiques/pc7892", "name": "Raccords plastiques", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/raccords/raccords-pneumatiques/pc7894", "name": "Raccords pneumatiques", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/raccords/raccords-pompier/pc7887", "name": "Raccords pompier", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/raccords/raccords-rapides-a-cames/pc7888", "name": "Raccords rapides à cames", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/raccords/raccords-a-agrafes/pc7889", "name": "Raccords à agrafes", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/remplissage-du-pulverisateur/pc8508", "name": "Remplissage du pulvérisateur", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/tuyaux---raccords/pc3041", "name": "Tuyaux", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/vannes/pc3033", "name": "Vannes", "super_category_url": "/pieces-agricoles/pulverisation/pc3023", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/alimentation/pc2968", "name": "Alimentation", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/alternateurs---demarreurs/alternateurs/pc6243", "name": "Alternateurs", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/alternateurs---demarreurs/demarreurs/pc6240", "name": "Démarreurs", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/coupe-de-moissonneuses-batteuses/accessoires-ensileuse/pc8597", "name": "Accessoires maïs et ensileuse", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/coupe-de-moissonneuses-batteuses/accessoires-pour-coupe-repliable/pc8574", "name": "Accessoires pour coupe repliable", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/coupe-de-moissonneuses-batteuses/boulonnerie-et-rivet/pc7612", "name": "Boulonnerie et rivet", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/coupe-de-moissonneuses-batteuses/diviseur/pc7608", "name": "Diviseur", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/coupe-de-moissonneuses-batteuses/doigt-double/pc7606", "name": "Doigt double", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/coupe-de-moissonneuses-batteuses/doigt-escamotable/pc7610", "name": "Doigt escamotable", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/coupe-de-moissonneuses-batteuses/elements-de-hauteur-de-coupe/pc8596", "name": "Eléments de hauteur de coupe", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/coupe-de-moissonneuses-batteuses/guide-et-support-de-sccie/pc7623", "name": "Guide et Support de scie", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/coupe-de-moissonneuses-batteuses/pieces-d-entrainement/pc8595", "name": "Pièces d'entrainement", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/coupe-de-moissonneuses-batteuses/rabateur/pc7609", "name": "Rabatteur", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/coupe-de-moissonneuses-batteuses/releveur/pc7607", "name": "Releveur", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/coupe-de-moissonneuses-batteuses/scie-a-colza/pc8536", "name": "Scie à colza", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/coupe-de-moissonneuses-batteuses/section/pc7605", "name": "Section Lame et support", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/coupe-de-moissonneuses-batteuses/tete-de-scie/pc7611", "name": "Tête de scie", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/batteur---chaine/autre-pieces-de-batteurs/pc7859", "name": "Autres pièces de batteurs", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/batteur---chaine/batteur-a-otons/pc8544", "name": "Batteur a ôtons", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/broyeur/systeme-d-eparpillage/pc8541", "name": "Système d'éparpillage", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/broyeur/systeme-de-broyage-des-pailles/pc8540", "name": "Système de broyage des pailles", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/cabine/accessoires-de-cabine/pc8789", "name": "Accessoires de cabine", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/cabine/sieges-moissonneuse-batteuse/pc8788", "name": "Sièges Moissonneuse Batteuse", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/capteurs/pc2970", "name": "Capteurs et éléctronique", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/carrosserie/pc8604", "name": "Carrosserie", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/convoyage/chaine-de-convoyeur/pc7854", "name": "Chaines", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/convoyage/glissieres-et-tolerie-d-usure/pc8546", "name": "Glissieres et tolerie d'usure", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/convoyage/lattes-de-convoyeur/pc7855", "name": "Latte ou barrette de convoyeur", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/convoyage/pignons/pc8545", "name": "Pignon et pièces d'entrainement", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/courroies/pc2920", "name": "Courroies", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/entrainement/arbre/pc8795", "name": "Arbre", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/entrainement/pignon/pc8794", "name": "Pignon", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/entrainement/poulie/pc8796", "name": "Poulie", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/l-equipement-du-moissonneur/pc7595", "name": "Equipement pour la moisson", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/filtration/autres-filtres/pc6212", "name": "Autres filtres", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/filtration/filtre-habitacle/pc6217", "name": "Filtre habitacle", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/filtration/filtre-hydraulique/pc6221", "name": "Filtre hydraulique", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/filtration/filtre-a-air/pc6224", "name": "Filtre à air", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/filtration/filtre-a-gasoil/pc6218", "name": "Filtre à gasoil", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/filtration/filtre-a-huile/pc6220", "name": "Filtre à huile", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/hydraulique/pc8601", "name": "Hydraulique", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/pieces-moteurs/pc2955", "name": "Pièces moteurs", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/pneumatiques/pc7575", "name": "Pneumatiques", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/refroidissement/pc2959", "name": "Refroidissement", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/recuperations-des-grains-et-otons/chaines-elevatrices/pc8549", "name": "Chaines élévatrices", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/recuperations-des-grains-et-otons/palettes-d-elevateurs/pc8550", "name": "Palettes d'élevateurs", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/recuperations-des-grains-et-otons/pignons-et-pieces-d-entrainements/pc8557", "name": "Pignons et pièces d'entrainements", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/recuperations-des-grains-et-otons/vis-et-tolerie-d-elevateur/pc8551", "name": "Vis et tolerie d'élévateur", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/signalisation---eclairage/pc2945", "name": "Signalisation - Eclairage", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/systeme-de-nettoyage/caissons/pc8553", "name": "Caissons", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/systeme-de-nettoyage/palliers-et-silentblocs/pc8554", "name": "Palliers et silentblocs", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/systeme-de-nettoyage/pieces-d-entrainement/pc8598", "name": "Pièces d'entrainement", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/systeme-de-nettoyage/tables-et-grilles/pc8552", "name": "Tables et grilles", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/systeme-de-nettoyage/toiles-d-etancheite/pc8555", "name": "Toiles d'étanchéité", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/organes-de-separation/accelerateurs-et-tire-paille/pc8537", "name": "Accelerateurs et tire paille", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/organes-de-separation/batteur/pc8786", "name": "Batteur", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/organes-de-separation/contre-batteur-et-corbeille/pc8787", "name": "Contre Batteur et Corbeille", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/organes-de-separation/secoueurs-et-aerateurs/pc8538", "name": "Secoueurs et aérateurs", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/pieces-de-transmission-pour-moissonneuse-batteuse/direction-freinage/pc8607", "name": "Direction/freinage", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/pieces-de-transmission-pour-moissonneuse-batteuse/embrayage-boite/pc8608", "name": "Embrayage/boîte", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/pieces-de-transmission-pour-moissonneuse-batteuse/essieu/pc8609", "name": "Essieu", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/tremie-et-vidange/pc8558", "name": "Trémie et vidange", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/vis-sans-fin/pc7976", "name": "Vis sans fin", "super_category_url": "/pieces-agricoles/moissonneuse---ensileuse/pc2915", "state": "sub_category"}
+{"url": "/bio/engrais-bio/amendements-basiques-bio/pc8489", "name": "Amendements basiques", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/engrais-bio/engrais-magnesiens-bio/pc8497", "name": "Engrais magnésiens", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/engrais-bio/biostimulants/pc8494", "name": "Biostimulants", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/engrais-bio/purins-et-macerations/pc8491", "name": "Purins et macérations", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/engrais-bio/engrais-soufres-bio/pc8496", "name": "Engrais soufrés", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/engrais-bio/engrais-potassiques-bio/pc8495", "name": "Engrais potassiques", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/engrais-bio/engrais-foliaires-bio/pc8490", "name": "Engrais foliaires", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/engrais-bio/engrais-phosphates-bio/pc8493", "name": "Engrais phosphatés", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/engrais/engrais-starters/pc8037", "name": "Engrais starter", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/engrais-bio/engrais-organiques/pc8487", "name": "Engrais organiques", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/engrais-bio/engrais-mineraux/pc8488", "name": "Engrais minéraux", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/engrais-bio/pc2860", "name": "Voir toute la catégorie", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/gammes-bio/luzernes-bio/pc8506", "name": "Luzernes", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/gammes-bio/semences-cipan-bio/pc7536", "name": "CIPAN", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/gammes-bio/semences-fourrageres-bio/pc7533", "name": "Fourragère", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/semence-bio/cereales-a-paille-bio/pc7981", "name": "Céréales à paille", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/gammes-bio/proteagineux-bio/pc8379", "name": "Protéagineux", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/gammes-bio/mais-bio/pc7535", "name": "Maïs", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/gammes-bio/soja-bio/pc8092", "name": "Soja", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/gammes-bio/tournesol-bio/pc7532", "name": "Tournesol", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/gammes-bio/melanges-bio/pc7534", "name": "Mélange de semences", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/nutrition-bio/sceau-et-bloc-a-lecher-bio/pc7882", "name": "Sceaux et blocs à lécher", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/nutrition-bio/antiparasitaires-et-insectes/pc8504", "name": "Antiparasitaires et insectes", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/nutrition-bio/complement-alimentaire-bio/pc7881", "name": "Complément alimentaire pour animaux", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/nutrition-bio/matieres-premieres-minerales-bio/pc7883", "name": "Matières premières minérales", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/nutrition-bio/aliment-mineral/pc7880", "name": "Aliments minéraux", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/nutrition-bio/hygiene-de-traite/pc8503", "name": "Hygiène de traite", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "Hygiène%20des%20locaux%20d%27élevage/pc8505", "name": "Hygiène des locaux", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/protection-des-plantes/adjuvants/pc8482", "name": "Adjuvants", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/protection-des-plantes/pieges-diffuseur-pheromones/pc8486", "name": "Pièges et diffuseurs phéromones", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/protection-des-plantes/repulsifs/pc8481", "name": "Répulsifs", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/protection-des-plantes/solution-defanage-dessication/pc8484", "name": "Solution defanage dessication", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/protection-des-plantes/solutions-contre-les-insectes/pc8479", "name": "Solutions contre insectes", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/protection-des-plantes/solutions-contre-limaces/pc8480", "name": "Solutions contre limaces", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/protection-des-plantes/solutions-fongiques/pc8477", "name": "Solutions fongiques", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/bio/protection-des-plantes/traitement-semences/pc8483", "name": "Traitement semences", "super_category_url": "/publi/bio", "state": "sub_category"}
+{"url": "/engrais/engrais-azotes/pc979", "name": "Engrais azotés", "super_category_url": "/engrais/pc975", "state": "sub_category"}
+{"url": "/engrais/engrais-azote-soufre/pc8651", "name": "Engrais azoté soufré", "super_category_url": "/engrais/pc975", "state": "sub_category"}
+{"url": "/engrais/engrais-npk/pc8034", "name": "Engrais NPK", "super_category_url": "/engrais/pc975", "state": "sub_category"}
+{"url": "/engrais/engrais-pk/pc8035", "name": "Engrais PK", "super_category_url": "/engrais/pc975", "state": "sub_category"}
+{"url": "/engrais/engrais-np/pc8033", "name": "Engrais NP", "super_category_url": "/engrais/pc975", "state": "sub_category"}
+{"url": "/engrais/fertigation/pc8437", "name": "Fertigation", "super_category_url": "/engrais/pc975", "state": "sub_category"}
+{"url": "/engrais/analyses-et-prelevements/pc8650", "name": "Analyses et prélèvements", "super_category_url": "/engrais/pc975", "state": "sub_category"}
+{"url": "/publi/composez-votre-engrais-sur-mesure", "name": "Engrais sur mesure", "super_category_url": "/engrais/pc975", "state": "sub_category"}
+{"url": "/engrais-panachage", "name": "Panachage Engrais", "super_category_url": "/engrais/pc975", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/alimentation/bouchon-de-carburant/pc7196", "name": "Bouchon de carburant", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/alimentation/bougie/pc5982", "name": "Bougie", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/alimentation/circuits-d-alimentation/pc6140", "name": "Circuits d'alimentation", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/alimentation/durites/pc6132", "name": "Durites", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/alimentation/injecteurs/pc5991", "name": "Injecteurs", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/alimentation/pompe-d-alimentation/pc5985", "name": "Pompe d'alimentation", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/alimentation/pompe-d-injection/pc5988", "name": "Pompe d'injection", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/alimentation/reservoir/pc5994", "name": "Réservoir", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/alimentation/tirettes-d-arret/pc6136", "name": "Tirettes d'arret", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/alternateurs/pc5811", "name": "Alternateurs", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/attelage---relevage/3eme-point/pc5871", "name": "ème point / Barre de poussée", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/attelage---relevage/attelage-remorque/pc5877", "name": "Attelage remorque", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/attelage---relevage/autres-pieces-d-attelage/pc7778", "name": "Autres pièces d'attelage", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/attelage---relevage/axes-et-broches/pc6159", "name": "Axes et broches", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/attelage---relevage/barre-a-trous---barre-ronde/pc5880", "name": "Barre à trous - Barre ronde", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/attelage---relevage/bras-de-relevage/pc6160", "name": "Bras de relevage", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/attelage---relevage/crochets---verrous/pc5892", "name": "Crochets - Verrous", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/attelage---relevage/goupilles/pc5889", "name": "Goupilles", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/attelage---relevage/hydraulique/pc7539", "name": "Hydraulique", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/attelage---relevage/rotules/pc5886", "name": "Rotules", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/attelage---relevage/stabilisateurs/pc5874", "name": "Stabilisateurs", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/batteries/pc2904", "name": "Batteries", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/cabine/accessoires-de-cabine/pc7176", "name": "Accessoires de cabine", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/cabine/camera--and--autoradio/pc6158", "name": "Caméra & autoradio", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/cabine/charniere-et-etancheite-de-la-cabien/pc7486", "name": "Charnière et étanchéité de la cabine", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/cabine/climatisation---chauffage/pc5859", "name": "Climatisation - Chauffage", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/cabine/electronique-embarque/pc6570", "name": "Electronique embarqué", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/cabine/essuie-glace/pc5844", "name": "Essuie Glace", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/cabine/house-de-siege/pc7821", "name": "Housse de siège", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/cabine/interrupteurs---commandes/pc5856", "name": "Interrupteurs - Commandes", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/cabine/klaxon/pc6141", "name": "Klaxon", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/cabine/levier-et-joystick/pc8793", "name": "Levier et Joystick", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/cabine/poignee-de-porte/pc6127", "name": "Poignée / serrure et clé", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/cabine/retroviseur/pc5853", "name": "Retroviseur", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/cabine/silentbloc/pc7483", "name": "Silentbloc & suspension", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/cabine/siege/pc5850", "name": "Siège", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/cabine/support-ecran/pc8005", "name": "Support d'écran", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/cabine/verin/pc5847", "name": "Verin", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/cabine/vitre/pc5841", "name": "Vitre", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/cabine/volant/pc8792", "name": "Volant", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/carrosserie/ailes-et-extension/pc8756", "name": "Ailes et extension", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/carrosserie/capot---calandre/pc8757", "name": "Capot / Calandre", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/carrosserie/embleme-et-autocollant/pc8790", "name": "Emblème et Autocollant", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/carrosserie/essuie-glace/pc7059", "name": "Essuie glace", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/carrosserie/garde-boue/pc5916", "name": "Garde-boue", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/carrosserie/marche-pieds/pc8760", "name": "Marche pieds", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/carrosserie/peinture/pc5913", "name": "Peinture", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/carrosserie/pieces-de-carrosserie/pc5919", "name": "Pièces de carrosserie", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/carrosserie/poignee-de-porte/pc6125", "name": "Poignée de porte", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/carrosserie/porte/pc8759", "name": "Porte", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/carrosserie/protection-de-carrosserie/pc8816", "name": "Protection de carrosserie", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/carrosserie/toit/pc8758", "name": "Toit", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/carrosserie/vitre---essuie-glace---verin/pc5925", "name": "Vitre", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/direction/barre-de-direction/pc5898", "name": "Barre de direction", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/direction/direction-assistee/pc5904", "name": "Direction assistée", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/direction/fusee---axe-de-fusee/pc5907", "name": "Fusée - Axe de fusée", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/direction/moyeu-de-roue/pc5901", "name": "Moyeu de roue", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/direction/orbitrol/pc5910", "name": "Orbitrol", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/direction/pont-avant/pc7579", "name": "Pont avant", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/direction/rotule/pc5895", "name": "Rotule", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/demarreurs/pc5814", "name": "Démarreurs", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/electricite/alternateur/pc6042", "name": "Alternateur", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/electricite/capteur/pc6051", "name": "Capteur", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/electricite/contacteur/pc6048", "name": "Contacteur", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/electricite/demarreur/pc6045", "name": "Démarreur", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/electricite/eclairage/pc6054", "name": "Eclairage", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/electricite/faisceau-electrique/pc6066", "name": "Faisceau electrique", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/electricite/prise---fiches/pc6057", "name": "Prise - Fiches", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/electricite/relais/pc6060", "name": "Relais", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/embrayage/amortisseur/pc6075", "name": "Amortisseur", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/embrayage/butee-et-roulement/pc6084", "name": "Butée et roulement", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/embrayage/cable-d-embrayage/pc6072", "name": "Cable d'embrayage", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/embrayage/disque-d-embrayage/pc6069", "name": "Disque d'embrayage", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/embrayage/kit-embrayage/pc6081", "name": "Kit embrayage", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/embrayage/mecanisme-d-embrayage/pc8753", "name": "Maître cylindre d'embrayage", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/embrayage/mecanisme-d-embrayage-2/pc8754", "name": "Mécanisme d'embrayage", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/embrayage/volant-moteur/pc6078", "name": "Volant moteur", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/essieu/arbre-de-transmission/pc6090", "name": "Arbre de transmission", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/essieu/bagues-et-joints/pc7625", "name": "Bagues et joints", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/essieu/fusee---axe-de-fusee/pc6087", "name": "Fusée - Axe de fusée", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/essieu/moyeu-de-roue/pc6093", "name": "Moyeu de roue", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/filtration/autres-filtres/pc5805", "name": "Autres filtres", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/filtration/filtres-habitacle/pc5799", "name": "Filtres habitacle", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/filtration/filtres-hydraulique/pc5790", "name": "Filtres hydraulique", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/filtration/filtres-separateur-air-huile/pc5802", "name": "Filtres séparateur air/huile", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/filtration/filtres-a-air/pc5787", "name": "Filtres à air", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/filtration/filtres-a-gasoil/pc5796", "name": "Filtres à gasoil", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/filtration/filtres-a-huile/pc5793", "name": "Filtres à huile", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/filtration/filtre-a-charbon-actif/pc7596", "name": "Filtre à charbon actif", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/freins/accessoires/pc6162", "name": "Accessoires", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/freins/cable-de-frein/pc5964", "name": "Cable de frein", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/freins/cylindre-de-frein/pc5967", "name": "Cylindre de frein", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/freins/disque-de-friction/pc5976", "name": "Disque de friction", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/freins/etrier/pc7555", "name": "Etrier", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/freins/frein-a-main/pc5970", "name": "Frein à main", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/freins/plaquette-de-frein/pc5973", "name": "Plaquette de frein", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/freins/reservoir-pneumatique/pc5979", "name": "Reservoir pneumatique", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/hydraulique/accessoires-et-colliers-pour-circuit-hydraulique/pc7779", "name": "Accessoires et colliers pour circuit hydraulique", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/hydraulique/coupleurs---raccords/pc5868", "name": "Coupleurs - Raccords", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/hydraulique/distributeur/pc5865", "name": "Distributeur", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/hydraulique/pompe-hydraulique/pc5862", "name": "Pompe hydraulique", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/hydraulique/verins/pc6121", "name": "Vérins", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/pieces-moteurs/bielles/pc5952", "name": "Bielles", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/pieces-moteurs/cable/pc7556", "name": "Cable", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/pieces-moteurs/clapet-anti-pluie/pc7064", "name": "Clapet anti-pluie", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/pieces-moteurs/colliers/pc5961", "name": "Colliers", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/pieces-moteurs/couronne-de-demarrage/pc7849", "name": "Couronne de démarrage", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/pieces-moteurs/culasse/pc5934", "name": "Culasse", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/pieces-moteurs/flexibles-d-echappement/pc6153", "name": "Flexibles d'échappement", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/tracteur/pieces-moteurs/jauges/pc8531", "name": "Jauges", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/pieces-moteurs/joints---raccords/pc5937", "name": "Joints - Raccords", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/pieces-moteurs/kit-de-reparation/pc5955", "name": "Kit de réparation", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/pieces-moteurs/pistons/pc6145", "name": "Pistons", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/pieces-moteurs/pompe-a-huile/pc5958", "name": "Pompe à huile", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/pieces-moteurs/pots-d-echappement/pc5928", "name": "Pots d'échappement", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/pieces-moteurs/segments---chemises/pc5949", "name": "Segments - Chemises", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/pieces-moteurs/soupapes/pc5943", "name": "Soupapes", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/pieces-moteurs/turbocompresseur/pc8755", "name": "Turbocompresseur", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/pieces-moteurs/villebrequin---volant/pc5940", "name": "Villebrequin - volant", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/prise-de-force/arbre-de-prise-de-force/pc5997", "name": "Arbre de prise de force", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/prise-de-force/bagues---roulements/pc6000", "name": "Bagues - Roulements", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/prise-de-force/cardan/pc6030", "name": "Cardan", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/prise-de-force/embrayage-prise-de-force/pc6003", "name": "Embrayage prise de force", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/refroidissement/courroie/pc6306", "name": "Courroie", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/refroidissement/durite/pc5826", "name": "Durite", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/refroidissement/embrayage-viscostatique/pc5835", "name": "Embrayage viscostatique", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/refroidissement/joints/pc5838", "name": "Joints", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/refroidissement/pompe-a-eau/pc5829", "name": "Pompe à eau", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/refroidissement/prechauffage/pc7088", "name": "Préchauffage", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/refroidissement/radiateur/pc5820", "name": "Radiateur", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/refroidissement/thermostat/pc5832", "name": "Thermostat", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/refroidissement/vase-d-expansion/pc7578", "name": "Vase d'expansion", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/refroidissement/ventilateur/pc5823", "name": "Ventilateur", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/signalisation---eclairage/accessoires/pc7554", "name": "Accessoires", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/signalisation---eclairage/ampoules/pc6099", "name": "Ampoules", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/signalisation---eclairage/cabochons/pc6102", "name": "Cabochons", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/signalisation---eclairage/catadioptres/pc7553", "name": "Catadioptres", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/signalisation---eclairage/branchement-et-connecteur/pc6111", "name": "Connectique pour tracteur", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/signalisation---eclairage/cosse-et-fusible/pc6114", "name": "Cosse, fil et fusible", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/signalisation---eclairage/eclairage-led/pc7598", "name": "Eclairage LED", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/signalisation---eclairage/gyrophares/pc6105", "name": "Gyrophares", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/signalisation---eclairage/panneau---plaque-et-autocollants/pc6117", "name": "Panneau - plaque et autocollants", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/signalisation---eclairage/feu/pc6108", "name": "Phare & Feu", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/signalisation---eclairage/phare-de-travail/pc6466", "name": "Phare de travail", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/transmission/pc8061", "name": "Transmission", "super_category_url": "/pieces-agricoles/tracteur/pc2879", "state": "sub_category"}
+{"url": "/viticulture/engrais-vignes/engrais-bio/pc8703", "name": "Engrais BIO vigne", "super_category_url": "/viticulture/pc8654", "state": "sub_category"}
+{"url": "/viticulture/engrais-vignes/foliaire/pc8702", "name": "Engrais Foliaires vigne", "super_category_url": "/viticulture/pc8654", "state": "sub_category"}
+{"url": "/viticulture/engrais-vignes/mineral/pc8694", "name": "Engrais minéraux vigne", "super_category_url": "/viticulture/pc8654", "state": "sub_category"}
+{"url": "/viticulture/engrais-vignes/amendements-basiques---vigne/pc8717", "name": "Amendements basiques vigne", "super_category_url": "/viticulture/pc8654", "state": "sub_category"}
+{"url": "/viticulture/engrais-vignes/organo-mineral/pc8695", "name": "Engrais enrichi organo / minéral", "super_category_url": "/viticulture/pc8654", "state": "sub_category"}
+{"url": "/viticulture/engrais-vignes/organique/pc8696", "name": "Engrais organiques vigne", "super_category_url": "/viticulture/pc8654", "state": "sub_category"}
+{"url": "/viticulture/engrais-vignes/biostimulant/pc8697", "name": "Biostimulant vigne", "super_category_url": "/viticulture/pc8654", "state": "sub_category"}
+{"url": "/viticulture/phyto/fongicides/pc8680", "name": "Fongicides vigne", "super_category_url": "/viticulture/pc8654", "state": "sub_category"}
+{"url": "/viticulture/phyto/herbicides/pc8681", "name": "Herbicides vigne", "super_category_url": "/viticulture/pc8654", "state": "sub_category"}
+{"url": "/viticulture/phyto/insecticides/pc8679", "name": "Insecticides vigne", "super_category_url": "/viticulture/pc8654", "state": "sub_category"}
+{"url": "/viticulture/phyto/adjuvants/pc8678", "name": "Adjuvants vigne", "super_category_url": "/viticulture/pc8654", "state": "sub_category"}
+{"url": "/viticulture/phyto/bio/pc8676", "name": "Phytosanitaires BIO pour vigne", "super_category_url": "/viticulture/pc8654", "state": "sub_category"}
+{"url": "/viticulture/phyto/equipement-phyto/pc8682", "name": "Equipements phytosanitaires vigne", "super_category_url": "/viticulture/pc8654", "state": "sub_category"}
+{"url": "/viticulture/phyto/armoire-phyto/pc8683", "name": "Armoires phytosanitaires vigne", "super_category_url": "/viticulture/pc8654", "state": "sub_category"}
+{"url": "/viticulture/semences-vignes/pc8664", "name": "Enherbement permanent vignes", "super_category_url": "/viticulture/pc8654", "state": "sub_category"}
+{"url": "/viticulture/materiel-de-cave/cuves-et-tonneaux/pc8691", "name": "Cuves et tonneaux", "super_category_url": "/viticulture/pc8654", "state": "sub_category"}
+{"url": "/viticulture/materiel-viticole/machines-viticoles/pc8661", "name": "Machines viticoles", "super_category_url": "/viticulture/pc8654", "state": "sub_category"}
+{"url": "/viticulture/materiel-viticole/materiel-palissage/pc8657", "name": "Matériel palissage", "super_category_url": "/viticulture/pc8654", "state": "sub_category"}
+{"url": "/viticulture/materiel-viticole/materiel-plantation-vigne/pc8658", "name": "Matériel plantation vigne", "super_category_url": "/viticulture/pc8654", "state": "sub_category"}
+{"url": "/viticulture/materiel-viticole/outils-de-taille-de-vigne/pc8660", "name": "Outils de taille de vigne", "super_category_url": "/viticulture/pc8654", "state": "sub_category"}
+{"url": "/elevage/abreuvoir-pour-animaux-d-elevage/abreuvoir-pour-bovins/pc7702", "name": "Abreuvoir vaches et bovins", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/abreuvoir-pour-animaux-d-elevage/abreuvoir-pour-ovins/pc7703", "name": "Abreuvoir mouton et ovins", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/abreuvoir-pour-animaux-d-elevage/abreuvoir-porcins/pc7704", "name": "Abreuvoir cochon et porcins", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/abreuvoir-pour-animaux-d-elevage/abreuvoir-volaille/pc7776", "name": "Abreuvoir poule et volailles", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/abreuvoir-pour-animaux-d-elevage/abreuvoirs-pour--chevaux/pc7842", "name": "Abreuvoir chevaux", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/abreuvoir-pour-animaux-d-elevage/accessoires-pour-abreuvoirs/pc7825", "name": "Accessoires pour abreuvoirs", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/clotures/accessoires-pour-cloture/pc2062", "name": "Accessoires clôture", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/clotures/fils--rubans-et-barbeles/pc2095", "name": "Barbelés", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/clotures/batteries---electrificateurs/pc2065", "name": "Batterie clôture électrique", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/clotures/cablage-et-securite/pc2068", "name": "Câbles électrique", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/clotures/electrificateur/pc7974", "name": "Electrificateur de clôture", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/clotures/filets/pc2077", "name": "Filet électrique", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/clotures/isolateurs/pc2083", "name": "Isolateur clôture", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/clotures/piquets-et-poteaux/pc2086", "name": "Piquets de clôture", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/tierhaltung/stallbedarf/equipement-d-ecurie-pour-l-elevage-de-chevaux/pc8864", "name": "Équipement d'écurie pour l'élevage de chevaux", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/tierhaltung/stallbedarf/materiel-d-elevage-de-volailles/pc8863", "name": "Matériel d'élevage de volailles", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/batiments/chauffage-radiant/pc8720", "name": "Chauffage radiant", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/batiments/cornadis/pc8722", "name": "Cornadis", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/batiments/eclairage-led/pc8768", "name": "Eclairage led", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/batiments/lampes-chauffantes/pc1516", "name": "Lampes Chauffantes", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/batiments/materiels--and--equipements/pc8751", "name": "Matériels & équipements", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/batiments/produits-entretien-pro/pc8721", "name": "Produits d'entretien pro", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/batiments/ventilateur/pc8765", "name": "Ventilateur", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/distribution/auge-bovin/pc8735", "name": "Auge bovin", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/distribution/mangeoire-chevaux/pc8750", "name": "Mangeoire chevaux", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/distribution/mangeoire-poule/pc8736", "name": "Mangeoire poule", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/distribution/ratelier/pc8734", "name": "Ratelier", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/distribution/silo-grain/pc8737", "name": "Silo à grain", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/conservation-des-recoltes/bache-agricole/pc8707", "name": "Bâche agricole", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/conservation-des-recoltes/ensilage/pc7522", "name": "Bâche ensilage", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/conservation-des-recoltes/conservation-des-fourrages/pc8706", "name": "Conservation des fourrages", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/conservation-des-recoltes/ficelles/pc7586", "name": "Ficelle agricole", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/conservation-des-recoltes/filets/pc7587", "name": "Filet round baller", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/conservation-des-recoltes/enrubannage/pc7521", "name": "Film enrubannage", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/paturage/barriere-prairie/pc8746", "name": "Barrière de prairie", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/paturage/portillon/pc8747", "name": "Portillon", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/soins/materiel-veterinaire-7/pc7531", "name": "Matériel vétérinaire", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/soins/troupeau/pc8725", "name": "Soins du troupeau", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/soins/tonte-et-soin-du-poil/pc2764", "name": "Tonte pour animaux", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/soins/parage-et-soins-des-onglons/pc1579", "name": "Parage et soins des onglons", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/traite/griffes-et-plateaux-de-lavage/pc2332", "name": "Griffes et plateaux de lavage", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/traite/manchons/pc2338", "name": "Manchons", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/traite/mesure-du-lait/pc8730", "name": "Mesure du lait", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/traite/sonde-trayeuse/pc2756", "name": "Sonde trayeuse", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/traite/materiel_de_laiterie/pc1624", "name": "Materiel de laiterie", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/traite/transformation-du-lait/pc1639", "name": "Transformation du lait", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/traite/tuyaux/pc2341", "name": "Tuyaux", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/nurserie/biberon/pc8740", "name": "Biberon", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/nurserie/niche-veau/pc8741", "name": "Niche à veau", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/nurserie/nourrisseur-veau/pc8742", "name": "Nourrisseur à veau", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/nurserie/velage/pc8743", "name": "Vêlage", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/abreuvoir-pour-animaux-d-elevage/pc7699", "name": "Abreuvoir", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/clotures/pc1513", "name": "Clôture électrique", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/conservation-des-recoltes/pc7520", "name": "Conservation des récoltes", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/batiments/pc1402", "name": "Bâtiments et matériel d'élevage", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/traite/pc1423", "name": "Traite", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/elevage/soins/pc1420", "name": "Soins, hygiène et confort", "super_category_url": "/elevage/pc392", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/transmission/pc8061", "name": "Transmission", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/pieces-moteurs/pc2903", "name": "Pièces moteurs", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/filtration/pc2883", "name": "Filtration", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/cabine/pc2888", "name": "Cabine", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/attelage---relevage/pc2902", "name": "Attelage - Relevage", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/direction/pc2907", "name": "Direction et pont avant", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/refroidissement/pc2887", "name": "Refroidissement", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/batteries/pc2904", "name": "Batteries", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/hydraulique/pc2900", "name": "Hydraulique", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/carrosserie/pc2910", "name": "Carrosserie", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/signalisation---eclairage/pc2891", "name": "Signalisation - Eclairage", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/electricite/pc2905", "name": "Electricité", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/embrayage/pc2894", "name": "Embrayage", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/prise-de-force/pc3377", "name": "Prise de force", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/alimentation/pc2912", "name": "Alimentation", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/freins/pc2897", "name": "Freins", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/essieu/pc2913", "name": "Essieu", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/alternateurs/pc5811", "name": "Alternateurs", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/tracteur/demarreurs/pc5814", "name": "Démarreurs", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/charrue/pc2979", "name": "Charrue", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/herse-rotative/pc2985", "name": "Herse Rotative", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/vibroculteur/pc2997", "name": "Vibroculteur", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/boulonnerie/pc2989", "name": "Boulonnerie", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/decompacteur/pc2984", "name": "Décompacteur", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/fraise---rotalabour/pc2988", "name": "Fraise - Rotalabour", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/bineuse---houe-et-herse-etrille/pc2991", "name": "Bineuse - Houe et herse etrille", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/outil-de-plombage/pc2992", "name": "Outil de plombage", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/herse-de-prairie/pc2995", "name": "Herse de prairie", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/dechaumeur---cultivateur/pc2981", "name": "Déchaumeur - Cultivateur", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/travail-du-sol/pieces-carbures/pc3000", "name": "Pièces carbures", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/barre-de-guidage/pc8860", "name": "Barre de guidage", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/raccords/pc7691", "name": "Raccord pulvérisateur", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/produit-entretien-pulverisateur/pc7599", "name": "Produit entretien pulvérisateur", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/accessoires/pc3340", "name": "Accessoires", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/alternateur/pc3038", "name": "Alternateur", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/buses/pc3026", "name": "Buses", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/capteurs---mesures/pc3034", "name": "Pièces électronique", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/debimetre/pc8010", "name": "Manomètre Volucompteur Débitmètre", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/eclairage---signalisation/pc3035", "name": "Eclairage - Signalisation", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/ecrous/pc8009", "name": "Ecrous de buse", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/pieces-detachees-de-pompes/pc7908", "name": "Pièces pompe pulvérisateur", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/pompes/pc3029", "name": "Pompes", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/pompe-electrique/pc7525", "name": "Pompe Electrique", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/porte-buse/pc3027", "name": "Porte-buses", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/remplissage-du-pulverisateur/pc8508", "name": "Remplissage du pulvérisateur", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/pulverisation-pour-micro-tracteur-et-quad/pc3344", "name": "Pulvérisateur pour quad", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/joints-et-etancheite/pc3339", "name": "Joints et étanchéité", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/vannes/pc3033", "name": "Vannes", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/pneumatiques/pc3050", "name": "Pneu pulvérisateur", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/garde-boue-4/pc7083", "name": "Garde boue", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/incorporateurs/pc3044", "name": "Incorporateurs", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/demarreur/pc3348", "name": "Démarreur", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pieces-standards-de-vehicule/eclairage-et-signalisation/pc3330", "name": "Eclairage et signalisation", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pieces-standards-de-vehicule/alternateur---demarreur/pc3361", "name": "Alternateur - Démarreur", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pieces-standards-de-vehicule/attelage-et-relevage/pc3337", "name": "Attelage et relevage", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pieces-standards-de-vehicule/batterie/pc3335", "name": "Batterie", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pieces-standards-de-vehicule/electronique-embarque/pc3333", "name": "Electronique embarqué", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pneumatiques/pneus-de-tracteur/pc3193", "name": "Pneus de tracteur", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pneumatiques/chambre-a-air-et-accessoires/pc3321", "name": "Chambre à air et accessoires", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/fenaison/faneuse-et-andaineur/pc7926", "name": "Faneuse et Andaineur", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/fenaison/dent-andaineur---faneuse/pc3223", "name": "Dent andaineur / faneuse", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/fenaison/pic-a-foin-et-douille/pc6303", "name": "Pic à foin et douille", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/fenaison/axe-et-transmission-cardan/pc3313", "name": "Axe et transmission cardan", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/fenaison/lame-de-pick-up/pc3251", "name": "Lame de pick-up", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/fenaison/capteurs---mesures/pc3259", "name": "Capteurs et électroniques", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/fenaison/presse-et-auto-chargeuse/pc7924", "name": "Presse et Auto-chargeuse", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/fenaison/roulette/pc3237", "name": "Accessoires et pièces pour presse", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/fenaison/faucheuse/pc7925", "name": "Faucheuse", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/l-equipement-du-moissonneur/pc7595", "name": "Equipement pour la moisson", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/alternateurs---demarreurs/pc2938", "name": "Alternateurs - Démarreurs", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/tremie-et-vidange/pc8558", "name": "Trémie et vidange", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/batteur---chaine/pc2947", "name": "Battage", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/capteurs/pc2970", "name": "Capteurs et éléctronique", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/convoyage/pc2953", "name": "Convoyage", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/courroies/pc2920", "name": "Courroies", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/entrainement/pc7916", "name": "Entrainement", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/pneumatiques/pc7575", "name": "Pneumatiques", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/coupe-de-moissonneuses-batteuses/pc7547", "name": "Barre de coupe", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/systeme-de-nettoyage/pc8547", "name": "Système de nettoyage", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/organes-de-separation/pc7977", "name": "Système de séparation", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/vis-sans-fin/pc7976", "name": "Vis sans fin", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/broyeur/pc7546", "name": "Broyeur et éparpilleur", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/moissonneuse---ensileuse/recuperations-des-grains-et-otons/pc8548", "name": "Récupérations des grains et ôtons", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/manutention/masse-avant/pc8824", "name": "Masse avant", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/manutention/benne-preneuse/pc8501", "name": "Benne preneuse", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/manutention/pince-a-balles/pc8500", "name": "Pince à balles", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/manutention/axes--roulements-et-douilles/pc7912", "name": "Axes, roulements et douilles", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/manutention/bande-raclage/pc7548", "name": "Bande raclage", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/manutention/chargeur-frontal/pc3131", "name": "Chargeur frontal", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/manutention/direction/pc3146", "name": "Direction", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/manutention/electronique-et-capteurs/pc6555", "name": "Electronique et capteurs", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/manutention/fourche-et-godet/pc3139", "name": "Fourche et godet", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/manutention/freinage/pc7527", "name": "Freinage", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/manutention/lame-de-godet/pc3137", "name": "Lame et dents de godet", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/manutention/dent---douille---bague/pc3134", "name": "Pic bottes et douilles", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/semoir/capteur/pc3082", "name": "Capteur et électronique", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/semoir/disque/pc3072", "name": "Disque", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/semoir/distribution/pc3083", "name": "Distribution", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/semoir/grattoir/pc3088", "name": "Grattoir", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/semoir/moyeu/pc3085", "name": "Moyeu", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/semoir/peignes/pc3086", "name": "Peignes", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/semoir/ressorts/pc3090", "name": "Ressorts", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/semoir/roue-plombeuse/pc3074", "name": "Roue plombeuse", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/semoir/roulement-et-palier/pc6729", "name": "Roulement et palier", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/semoir/soc---dent/pc3077", "name": "Soc - Dent", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/semoir/tuyau---raccord/pc3080", "name": "Tuyau - Raccord", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/semoir/autres/pc7456", "name": "Autres", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/broyage-et-debroussaillage/bagues---douilles/pc3057", "name": "Bagues - Douilles", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/broyage-et-debroussaillage/boitier-hydraulique/pc3062", "name": "Boitier hydraulique", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/broyage-et-debroussaillage/couteau---fleau---marteau/pc3056", "name": "Couteau - Fleau - Marteau", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/broyage-et-debroussaillage/manille---chaine/pc3058", "name": "Manille - Chaine", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/entrainement/cardan-de-transmission/pc3168", "name": "Cardan de transmission", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/entrainement/chaine/pc3182", "name": "Chaine", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/entrainement/moteur/pc3184", "name": "Moteur", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/entrainement/roulements/pc3171", "name": "Roulements", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/entrainement/palier/pc3173", "name": "Palier", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/entrainement/renvoie-d-angle/pc3176", "name": "Renvoie d'angle", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/engrais---fumier---lisier/pi%C3%A8ces-de-rampe-pour-lisier/pc8959", "name": "Pièces de rampe pour lisier", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/engrais---fumier---lisier/buse-engrais-liquide/pc3094", "name": "Buse engrais liquide", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/engrais---fumier---lisier/agitateur/pc7602", "name": "Agitateur", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/engrais---fumier---lisier/aube---disque---plateau/pc3125", "name": "Aube - Disque - Plateau", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/engrais---fumier---lisier/chaines---pignons---tendeurs/pc3107", "name": "Chaines - Pignons - tendeurs", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/engrais---fumier---lisier/compresseur-de-tonne-a-lisier/pc7211", "name": "Compresseur de tonne à lisier", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/engrais---fumier---lisier/couteaux/pc3118", "name": "Couteaux pour épandeur à fumier", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/engrais---fumier---lisier/diffuseur---buse/pc3102", "name": "Diffuseur - Buse", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/engrais---fumier---lisier/griffe---raccord-et-manchon/pc3116", "name": "Griffe - Raccord et Manchon", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/engrais---fumier---lisier/guides-chaine-et-noix/pc3123", "name": "Guides chaine et noix", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/engrais---fumier---lisier/incorportateur/pc3304", "name": "Incorporateur", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/engrais---fumier---lisier/mesure---capteurs---regulation/pc3115", "name": "Mesure - Capteurs - Régulation", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/engrais---fumier---lisier/palettes/pc3095", "name": "Palettes", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/engrais---fumier---lisier/tuyaux---tube-et-frette/pc3108", "name": "Tuyaux - tube et Frette", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/engrais---fumier---lisier/vannes---etancheite-et-evacuation/pc3301", "name": "Vannes - étanchéité et évacuation", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/transports/attelage/pc3164", "name": "Attelage", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/transports/bequille/pc3160", "name": "Bequille", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/transports/garde-boue-3/pc7082", "name": "Garde boue et bavette", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/materiel-specifique/materiel-pomme-de-terre/pc3013", "name": "Materiel pomme de terre", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/materiel-specifique/materiel-betteravier/pc3011", "name": "Materiel betteravier", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/materiel-d-elevage/chaine-pour-desilleuse-pailleuse/pc7851", "name": "Chaîne pour désilleuse pailleuse", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/materiel-d-elevage/couteau-de-melangeuse/pc3205", "name": "Couteau de mélangeuse", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/materiel-d-elevage/dent-de-fourche/pc3210", "name": "Dent de fourche", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/destockage/atelier/pc8429", "name": "Atelier", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/destockage/travail-du-sol/pc8385", "name": "Travail du sol", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/destockage/signalisation---eclairage---electronique/pc8391", "name": "Signalisation - Eclairage - Electronique", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/destockage/cabine---carrosserie/pc8395", "name": "Cabine - Carrosserie", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/destockage/attelage---relevage---remorque/pc8409", "name": "Attelage - Relevage - Remorque", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/destockage/pneus---roue---essieu/pc8410", "name": "Pneus - Roue - Essieu", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/destockage/quincaillerie/pc8412", "name": "Quincaillerie", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/destockage/recolte---ensilage---fenaison/pc8420", "name": "Récolte - Ensilage - Fenaison", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/destockage/accessoires-et-equipements/pc8425", "name": "Accessoires et Equipements", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/destockage/roulement/pc8424", "name": "Roulement", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/pieces-agricoles/pulverisation/pc3023", "name": "Pulvérisation agricole : pièces", "super_category_url": "/pieces-agricoles/pc2876", "state": "sub_category"}
+{"url": "/semences/semences-de-tournesol/pc8431", "name": "Tournesols", "super_category_url": "/semences/pc920", "state": "sub_category"}
+{"url": "/semences/cereales-a-paille/semence-d-orge-d-hiver/pc949", "name": "Orge", "super_category_url": "/semences/pc920", "state": "sub_category"}
+{"url": "/semences/sorgho/pc8455", "name": "Sorgho", "super_category_url": "/semences/pc920", "state": "sub_category"}
+{"url": "/semences/semences-fourrageres/pc972", "name": "Fourragères", "super_category_url": "/semences/pc920", "state": "sub_category"}
+{"url": "/semences/cipan---culture-intermediaire/pc921", "name": "Couverts végétaux", "super_category_url": "/semences/pc920", "state": "sub_category"}
+{"url": "/semences/semences-de-colza/pc7966", "name": "Colza", "super_category_url": "/semences/pc920", "state": "sub_category"}
+{"url": "/semences/cereales-a-paille/pc946", "name": "Céréales", "super_category_url": "/semences/pc920", "state": "sub_category"}
+{"url": "/semences/cereales-a-paille/semence-de-ble-tendre/pc952", "name": "Blé tendre", "super_category_url": "/semences/pc920", "state": "sub_category"}
+{"url": "/semences/cereales-a-paille/semence-triticale/pc954", "name": "Triticale", "super_category_url": "/semences/pc920", "state": "sub_category"}
+{"url": "/semences/semences-bio/pc7502", "name": "Semences BIO", "super_category_url": "/semences/pc920", "state": "sub_category"}
+{"url": "/phyto/fonction/herbicides/pc7114", "name": "Herbicides", "super_category_url": "/phyto/pc2641", "state": "sub_category"}
+{"url": "/phyto/fonction/fongicides/pc7109", "name": "Fongicides", "super_category_url": "/phyto/pc2641", "state": "sub_category"}
+{"url": "/phyto/fonction/insecticides/pc7115", "name": "Insecticides", "super_category_url": "/phyto/pc2641", "state": "sub_category"}
+{"url": "/phyto/fonction/regulaters/pc7529", "name": "Régulateurs", "super_category_url": "/phyto/pc2641", "state": "sub_category"}
+{"url": "/phyto/fonction/molluscicides-helicides/pc7118", "name": "Anti limaces", "super_category_url": "/phyto/pc2641", "state": "sub_category"}
+{"url": "/phyto/fonction/traitement-de-semence/pc8001", "name": "Traitement de semence", "super_category_url": "/phyto/pc2641", "state": "sub_category"}
+{"url": "/phyto/fonction/stimulateur-de-defenses-naturelles/pc8701", "name": "Biocontrôle", "super_category_url": "/phyto/pc2641", "state": "sub_category"}
+{"url": "/alimentation-animale/aliment-betail/pc8801", "name": "Aliments bétail", "super_category_url": "/alimentation-animale/pc7283", "state": "sub_category"}
+{"url": "/alimentation-animale/dreches/pc8803", "name": "Drêches", "super_category_url": "/alimentation-animale/pc7283", "state": "sub_category"}
+{"url": "/alimentation-animale/tourteaux/pc8804", "name": "Tourteaux", "super_category_url": "/alimentation-animale/pc7283", "state": "sub_category"}
+{"url": "/alimentation-animale/seau-a-lecher/pc8805", "name": "Seaux à lécher", "super_category_url": "/alimentation-animale/pc7283", "state": "sub_category"}
+{"url": "/alimentation-animale/matiere-minerale-et-sel/pc8806", "name": "Matières minérales et sel", "super_category_url": "/alimentation-animale/pc7283", "state": "sub_category"}
+{"url": "/alimentation-animale/nutritionnels/pc8808", "name": "Nutritionnels", "super_category_url": "/alimentation-animale/pc7283", "state": "sub_category"}
+{"url": "/alimentation-animale/melasse/pc8809", "name": "Mélasse", "super_category_url": "/alimentation-animale/pc7283", "state": "sub_category"}
+{"url": "/alimentation-animale/aliments-d-allaitement/pc8810", "name": "Aliments d'allaitement", "super_category_url": "/alimentation-animale/pc7283", "state": "sub_category"}
