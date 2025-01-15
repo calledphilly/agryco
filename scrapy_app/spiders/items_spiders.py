@@ -126,7 +126,3 @@ class PriceSpider1(scrapy.Spider):
             # item['price'] += ","
             # item['price'] += product.xpath('.//div[@class="base-price"]/div[@class="amout"]/span/span/slot[@name="dec"]/text()').get(default='').strip()
             yield item
-            
-            
-            
-lol = "dzedzeadazedzaedeezdedzeaf ffzefz eafz"
