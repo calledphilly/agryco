@@ -1,9 +1,6 @@
 import scrapy
+from playwright.async_api import async_playwright
 from scrapy.http import HtmlResponse
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
 
 from scrapy_app.items import CategoryItem, SubCategoryItem
 
@@ -13,45 +10,22 @@ class CategorySpider(scrapy.Spider):
     allowed_domains = ["www.agryco.com"]
     start_urls = ["https://www.agryco.com"]
 
-    # def start_requests(self):
-    #     # Configurer le navigateur Selenium
-    #     driver = webdriver.Safari()
-
-    #     for url in self.start_urls:
-    #         driver.get(url)
-
-    #         # Utilisez WebDriverWait pour plus de robustesse
-    #         try:
-    #             button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable(
-    #                 (By.XPATH, '//*[@id="user-menu-location"]')))
-    #             button.click()
-    #         except Exception as e:
-    #             self.logger.error(f"Erreur lors du clic: {e}")
-
-    #         # Passer le contenu de la page modifiée à Scrapy
-    #         response = HtmlResponse(url=url, body=driver.page_source, encoding='utf-8')
-
-    #         # Traiter ce contenu avec Scrapy
-    #         yield self.parse(response)
-
-    #     # Fermer le navigateur Selenium
-    #     driver.quit()
+    def start_requests(self):
+        for url in self.start_urls:
+            yield scrapy.Request(url=url, meta={"playwright": True})
 
     def parse(self, response: HtmlResponse):
-        for url in self.start_urls:
-            yield response.follow(url, self.parse_category)
-
-        # return scrapy.FormRequest.from_response(
-        #     response,
-        #     formdata={
-        #         'town_email[town][_postcode]': '92000',
-        #         'town_email[town][_select_town]': '36467',
-        #         'town_email[email]': 'gallery-kosher-9o@icloud.com',
-        #         '_redirect': response.xpath('//input[@name="_redirect"]/@value').get(),
-        #     },
-        #     formxpath='//form[@id="postcode-popup-form"]',
-        #     callback=self.after_login,
-        # )
+        return scrapy.FormRequest.from_response(
+            response,
+            formdata={
+                'town_email[town][_postcode]': '92000',
+                'town_email[town][_select_town]': '36467',
+                'town_email[email]': 'gallery-kosher-9o@icloud.com',
+                '_redirect': response.xpath('//input[@name="_redirect"]/@value').get(),
+            },
+            formxpath='//form[@id="postcode-popup-form"]',
+            callback=self.after_login,
+        )
 
     def after_login(self, response: HtmlResponse):
         # Vérifiez si la connexion a réussi
@@ -83,7 +57,30 @@ class SubCategorySpider(scrapy.Spider):
     allowed_domains = ["www.agryco.com"]
     start_urls = ["https://www.agryco.com"]
 
+    def start_requests(self):
+        for url in self.start_urls:
+            yield scrapy.Request(url=url, meta={"playwright": True})
+
     def parse(self, response: HtmlResponse):
+        return scrapy.FormRequest.from_response(
+            response,
+            formdata={
+                'town_email[town][_postcode]': '92000',
+                'town_email[town][_select_town]': '36467',
+                'town_email[email]': 'gallery-kosher-9o@icloud.com',
+                '_redirect': response.xpath('//input[@name="_redirect"]/@value').get(),
+            },
+            formxpath='//form[@id="postcode-popup-form"]',
+            callback=self.after_login,
+        )
+
+    def after_login(self, response: HtmlResponse):
+        # Vérifiez si la connexion a réussi
+        if "identifiants incorrects" in response.text.lower():
+            self.logger.error("Échec de la connexion")
+            return
+
+        # Continuer à scraper des pages protégées
         for url in self.start_urls:
             yield response.follow(url, self.parse_category)
 

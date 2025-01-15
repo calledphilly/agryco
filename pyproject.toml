@@ -14,7 +14,7 @@ sqlalchemy = "^2.0.36"
 psycopg2 = "^2.9.10"
 networkx = "^3.4.2"
 scrapy-user-agents = "^0.1.1"
-selenium = "^4.27.1"
+playwright = "^1.49.1"
 
 
 [tool.poetry.group.dev.dependencies]

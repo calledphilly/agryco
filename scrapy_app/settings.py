@@ -15,6 +15,7 @@ NEWSPIDER_MODULE = "scrapy_app.spiders"
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "scrapy_app (+http://www.yourdomain.com)"
 # USER_AGENT = "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 10.0; Trident/5.0)"
+USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -55,6 +56,7 @@ DOWNLOADER_MIDDLEWARES = {
    #  "scrapy_app.middlewares.ScrapyAppDownloaderMiddleware": 543,
     'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
     'scrapy_user_agents.middlewares.RandomUserAgentMiddleware': 400,
+    "scrapy_app.middlewares.PlaywrightMiddleware": 543,
 }
 
 # Enable or disable extensions
@@ -96,3 +98,8 @@ ITEM_PIPELINES = {
 # Set settings whose default value is deprecated to a future-proof value
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
+
+LOG_LEVEL = "DEBUG"
+
+DUPEFILTER_DEBUG = True
+DUPEFILTER_CLASS = 'scrapy.dupefilters.BaseDupeFilter'
