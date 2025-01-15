@@ -9,7 +9,7 @@ class PriceSpider(scrapy.Spider):
 
     def start_requests(self):
         for url in self.start_urls:
-            yield scrapy.Request(url=url, meta={"playwright": True})
+            yield scrapy.Request(url=url, meta={"playwright_valid_form": True})
 
     def parse(self, response: HtmlResponse):
         return scrapy.FormRequest.from_response(
@@ -90,7 +90,7 @@ class PriceSpider(scrapy.Spider):
                 item['url'] = sub_category.xpath(xpath_for_get_url).get(default='').strip()
                 item['name'] = sub_category.xpath(xpath_for_get_name).get(default='').strip()
                 item['super_category_url'] = super_category_url
-                yield response.follow(item['url'], self.parse_product)
+                yield response.follow(item['url'], self.parse_product, meta={"playwright_wait_loading_product": True})
 
         for key in xpath_sub_categories:
             yield from follow_sub_categories(xpath_sub_categories[key]['base'], xpath_sub_categories[key]['url'],
@@ -99,9 +99,30 @@ class PriceSpider(scrapy.Spider):
     def parse_product(self, response: HtmlResponse):
         products = response.xpath('//div[@class="product-teaser __gtm-parsed"]').getall()
         for product in products:
-            product = ProductItem()
-            product['name'] = product.xpath('.//div[@class="content"]/div[@class="description-product"]/div[@class="information"]/h2/a[@class="product-name stretched-link"]/text()').get(default='').strip()
-            product['price'] = product.xpath('.//div[@class="base-price"]/div[@class="amout"]/span/slot[@name="int"]/text()').get(default='').strip()
-            product['price'] += ","
-            product['price'] = product.xpath('.//div[@class="base-price"]/div[@class="amout"]/span/span/slot[@name="dec"]/text()').get(default='').strip()
-            yield product
+            item = ProductItem()
+            item['name'] = product.xpath('.//div[@class="content"]/div[@class="description-product"]/div[@class="information"]/h2/a[@class="product-name stretched-link"]/text()').get(default='').strip()
+            item['price'] = product.xpath('.//div[@class="base-price"]/div[@class="amout"]/span/slot[@name="int"]/text()').get(default='').strip()
+            item['price'] += ","
+            item['price'] = product.xpath('.//div[@class="base-price"]/div[@class="amout"]/span/span/slot[@name="dec"]/text()').get(default='').strip()
+            yield item
+            
+            
+class PriceSpider1(scrapy.Spider):
+    name = "product1"
+    allowed_domains = ["www.agryco.com"]
+    start_urls = ["https://www.agryco.com/atelier/antigel-liquide-refroidissement/pc8868"]
+
+    def start_requests(self):
+        for url in self.start_urls:
+            yield scrapy.Request(url=url, meta={"playwright_wait_loading_products": True})
+            
+    def parse(self, response:HtmlResponse):
+        products = response.xpath('//div[@class="product-teaser __gtm-parsed"]')
+        self.logger.info(f'contenue de products : {products}')
+        for product in products:
+            item = ProductItem()
+            item['name'] = product.xpath('.//div[@class="content"]/div[@class="description-product"]/div[@class="information"]/h2/a[@class="product-name stretched-link"]/text()').get(default='').strip()
+            item['price'] = product.xpath('.//div[@class="base-price"]/div[@class="amout"]/span/slot[@name="int"]/text()').get(default='').strip()
+            # item['price'] += ","
+            # item['price'] += product.xpath('.//div[@class="base-price"]/div[@class="amout"]/span/span/slot[@name="dec"]/text()').get(default='').strip()
+            yield item
