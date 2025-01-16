@@ -25,5 +25,6 @@ class SubCategoryItem(CategoryItem):
 
 class ProductItem(scrapy.Item):
     name = scrapy.Field()
+    url = scrapy.Field()
     description = scrapy.Field()
     price = scrapy.Field()

@@ -44,7 +44,7 @@ class PlaywrightMiddleware:
                             spider.logger.info("Formulaire détecté")
                     except Exception as e:
                         spider.logger.error(f"Erreur lors du clic : {e}")
-
+                    
                     # extraction des datas
                     content = await page.content()
                     response = HtmlResponse(
@@ -73,7 +73,7 @@ class PlaywrightMiddleware:
                     spider.logger.info(f"Accès à {request.url}")
                     # redirection vers l'url
                     await page.goto(request.url)
-                    await page.wait_for_timeout(2000)
+                    await page.wait_for_timeout(1000)
                     
                     content = await page.content()
                     response = HtmlResponse(

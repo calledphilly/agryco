@@ -71,6 +71,7 @@ ITEM_PIPELINES = {
     "scrapy_app.pipelines.DuplicatesItemPipeline": 300,
     "scrapy_app.pipelines.WashItemPipeline": 301,
     "scrapy_app.pipelines.DefaultFieldPipeline": 302,
+    "scrapy_app.pipelines.DuplicatesItemPipeline": 303,
    #  "scrapy_app.pipelines.PostgresqlPipeline": 303,
 }
 
