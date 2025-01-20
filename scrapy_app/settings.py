@@ -14,7 +14,7 @@ NEWSPIDER_MODULE = "scrapy_app.spiders"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "scrapy_app (+http://www.yourdomain.com)"
-# USER_AGENT = "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 10.0; Trident/5.0)"
+#USER_AGENT = "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 10.0; Trident/5.0)"
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36'
 
 # Obey robots.txt rules
@@ -72,7 +72,7 @@ ITEM_PIPELINES = {
     "scrapy_app.pipelines.WashItemPipeline": 301,
     "scrapy_app.pipelines.DefaultFieldPipeline": 302,
     "scrapy_app.pipelines.DuplicatesItemPipeline": 303,
-   #  "scrapy_app.pipelines.PostgresqlPipeline": 303,
+    # "scrapy_app.pipelines.PostgresqlPipeline": 304,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

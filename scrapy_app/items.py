@@ -23,6 +23,7 @@ class SubCategoryItem(CategoryItem):
     super_category_url = scrapy.Field()
     pass
 
+
 class ProductItem(scrapy.Item):
     name = scrapy.Field()
     url = scrapy.Field()

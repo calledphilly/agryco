@@ -11,7 +11,7 @@ class CategorySpider(scrapy.Spider):
 
     def start_requests(self):
         for url in self.start_urls:
-            yield scrapy.Request(url=url, meta={"playwright": True})
+            yield scrapy.Request(url=url, meta={"playwright_valid_form": True})
 
     def parse(self, response: HtmlResponse):
         return scrapy.FormRequest.from_response(
@@ -41,12 +41,12 @@ class CategorySpider(scrapy.Spider):
 
         for category in nav:
             item = CategoryItem()
-            item["url"] = category.xpath('./a[@class="nav-link"]/@href').get(default='')
+            item["url"] = self.start_urls[0] + category.xpath('./a[@class="nav-link"]/@href').get(default='')
             item["name"] = category.xpath('normalize-space(.//span)').get(default='')
             yield item
 
         item = CategoryItem()
-        item['url'] = response.xpath('//li[@id="menu-13"]/a/@href').get(default='')
+        item['url'] = self.start_urls[0] + response.xpath('//li[@id="menu-13"]/a/@href').get(default='')
         item['name'] = response.xpath('//li[@id="menu-13"]//span/text()').get(default='')
         yield item
 
@@ -58,7 +58,7 @@ class SubCategorySpider(scrapy.Spider):
 
     def start_requests(self):
         for url in self.start_urls:
-            yield scrapy.Request(url=url, meta={"playwright": True})
+            yield scrapy.Request(url=url, meta={"playwright_valid_form": True})
 
     def parse(self, response: HtmlResponse):
         return scrapy.FormRequest.from_response(
@@ -136,9 +136,9 @@ class SubCategorySpider(scrapy.Spider):
         def generate_item_with_sub_category(xpath_base: str, xpath_for_get_url: str, xpath_for_get_name: str):
             for sub_category in response.xpath(xpath_base):
                 item = SubCategoryItem()
-                item['url'] = sub_category.xpath(xpath_for_get_url).get(default='').strip()
+                item['url'] = self.start_urls[0] + sub_category.xpath(xpath_for_get_url).get(default='').strip()
                 item['name'] = sub_category.xpath(xpath_for_get_name).get(default='').strip()
-                item['super_category_url'] = super_category_url
+                item['super_category_url'] = response.url
                 yield item
 
         for key in xpath_sub_categories:

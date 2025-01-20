@@ -5,6 +5,11 @@ description = ""
 authors = ["calledphilly <ybikouta@icloud.com>"]
 readme = "README.md"
 
+[tool.poetry.scripts]
+category = "agryco.scripts:category"
+sub-category = "agryco.scripts:sub_category"
+product = "agryco.scripts:product"
+
 [tool.poetry.dependencies]
 python = "^3.13"
 scrapy = "^2.12.0"

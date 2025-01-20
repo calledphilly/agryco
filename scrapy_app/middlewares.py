@@ -73,7 +73,7 @@ class PlaywrightMiddleware:
                     spider.logger.info(f"Accès à {request.url}")
                     # redirection vers l'url
                     await page.goto(request.url)
-                    await page.wait_for_timeout(1000)
+                    await page.wait_for_timeout(10000)
                     
                     content = await page.content()
                     response = HtmlResponse(
