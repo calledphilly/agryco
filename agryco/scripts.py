@@ -1,7 +1,6 @@
 import os
 import subprocess
 import argparse
-from typing import Dict
 
 parse = argparse.ArgumentParser(description="Lancer un spider Scrapy.")
 parse.add_argument('--output', type=str, default='jsonl')
