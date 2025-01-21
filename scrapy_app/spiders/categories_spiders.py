@@ -1,7 +1,16 @@
+import os
+
 import scrapy
+from dotenv import load_dotenv
 from scrapy.http import HtmlResponse
 
 from scrapy_app.items import CategoryItem, SubCategoryItem
+
+# Charge le fichier .env
+load_dotenv()
+
+# Accède aux variables d'environnement
+EMAIL = os.getenv('EMAIL')
 
 
 class CategorySpider(scrapy.Spider):
@@ -19,7 +28,7 @@ class CategorySpider(scrapy.Spider):
             formdata={
                 'town_email[town][_postcode]': '92000',
                 'town_email[town][_select_town]': '36467',
-                'town_email[email]': 'gallery-kosher-9o@icloud.com',
+                'town_email[email]': EMAIL,
                 '_redirect': response.xpath('//input[@name="_redirect"]/@value').get(),
             },
             formxpath='//form[@id="postcode-popup-form"]',
@@ -66,7 +75,7 @@ class SubCategorySpider(scrapy.Spider):
             formdata={
                 'town_email[town][_postcode]': '92000',
                 'town_email[town][_select_town]': '36467',
-                'town_email[email]': 'gallery-kosher-9o@icloud.com',
+                'town_email[email]': EMAIL,
                 '_redirect': response.xpath('//input[@name="_redirect"]/@value').get(),
             },
             formxpath='//form[@id="postcode-popup-form"]',

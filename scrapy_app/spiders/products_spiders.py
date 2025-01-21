@@ -24,7 +24,7 @@ class ProductTestSpider(scrapy.Spider):
             formdata={
                 'town_email[town][_postcode]': '92000',
                 'town_email[town][_select_town]': '36467',
-                'town_email[email]': 'gallery-kosher-9o@icloud.com',
+                'town_email[email]': EMAIL,
                 '_redirect': response.xpath('//input[@name="_redirect"]/@value').get(),
             },
             formxpath='//form[@id="postcode-popup-form"]',
@@ -221,7 +221,7 @@ class ProductSpider(scrapy.Spider):
             formdata={
                 'town_email[town][_postcode]': '92000',
                 'town_email[town][_select_town]': '36467',
-                'town_email[email]': 'gallery-kosher-9o@icloud.com',
+                'town_email[email]': EMAIL,
                 '_redirect': response.xpath('//input[@name="_redirect"]/@value').get(),
             },
             formxpath='//form[@id="postcode-popup-form"]',
@@ -267,7 +267,7 @@ class SS(scrapy.Spider):
             formdata={
                 'town_email[town][_postcode]': '92000',
                 'town_email[town][_select_town]': '36467',
-                'town_email[email]': 'gallery-kosher-9o@icloud.com',
+                'town_email[email]': EMAIL,
                 '_redirect': response.xpath('//input[@name="_redirect"]/@value').get(),
             },
             formxpath='//form[@id="postcode-popup-form"]',

@@ -161,5 +161,3 @@ cython_debug/
 
 .DS_Store
 output/
-screenshot.png
-scrapy.cfg
