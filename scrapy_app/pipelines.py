@@ -4,7 +4,6 @@
 # See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 import logging
 import re
-from unicodedata import category
 
 import scrapy
 import scrapy.exceptions
@@ -14,8 +13,10 @@ from networkx import scale_free_graph
 from numpy import empty
 
 from scrapy_app.items import CategoryItem, ProductItem, SubCategoryItem
-# from scrapy_app.models import CategoryModele, Session, SubCategoryModele
-from scrapy_app.spiders.categories_spiders import (CategorySpider, SubCategorySpider)
+from scrapy_app.models import (CategoryModel, ProductModel, Session,
+                               SubCategoryModel)
+from scrapy_app.spiders.categories_spiders import (CategorySpider,
+                                                   SubCategorySpider)
 from scrapy_app.spiders.products_spiders import ProductSpider
 
 # class ScrapyAppPipeline:
@@ -29,8 +30,7 @@ class DuplicatesItemPipeline:
     def __init__(self):
         self.seen_names = set()
 
-    def process_item(self, item: SubCategoryItem | CategoryItem | ProductItem,
-                     spider: CategorySpider | SubCategorySpider | ProductSpider) -> SubCategoryItem | CategoryItem | ProductItem:
+    def process_item(self, item: SubCategoryItem | CategoryItem | ProductItem, spider) -> SubCategoryItem | CategoryItem | ProductItem:
         if not item['name']:
             raise scrapy.exceptions.DropItem(f"Name field is empty : '{item['name']}'")
 
@@ -44,8 +44,7 @@ class DuplicatesItemPipeline:
 
 class DefaultFieldPipeline:
 
-    def process_item(self, item: SubCategoryItem | CategoryItem,
-                     spide: CategorySpider | SubCategorySpider) -> SubCategoryItem | CategoryItem:
+    def process_item(self, item: SubCategoryItem | CategoryItem, spide) -> SubCategoryItem | CategoryItem:
         if isinstance(item, CategoryItem):
             item['state'] = 'category'
 
@@ -56,8 +55,7 @@ class DefaultFieldPipeline:
 
 
 class WashItemPipeline:
-    def process_item(self, item: SubCategoryItem | CategoryItem | ProductItem,
-                     spider: CategorySpider | SubCategorySpider | ProductSpider) -> SubCategoryItem | CategoryItem | ProductItem:
+    def process_item(self, item: SubCategoryItem | CategoryItem | ProductItem, spider) -> SubCategoryItem | CategoryItem | ProductItem:
         if isinstance(item, SubCategoryItem) or isinstance(item, CategoryItem):
             item['name'] = item['name'].replace("(", "").replace(")", "")
             item['name'] = re.sub(r'\d+', '', item['name'])
@@ -71,43 +69,61 @@ class WashItemPipeline:
             return item
 
 
-# class PostgresqlPipeline:
-#     def __init__(self):
-#         self.session = None
+class PostgresqlPipeline:
+    def __init__(self):
+        self.session = None
 
-#     def process_item(self, item: SubCategoryItem | CategoryItem, spider: CategorySpider | SubCategorySpider ) -> CategoryItem | SubCategoryItem:
-#         self.session = Session()
-#         if item['state'] == 'category':
-#             db_category = self.session.query(CategoryModele).filter_by(name=item['name']).first()
-#             if not db_category:
-#                 db_category = CategoryModele(
-#                     name = item['name'],
-#                     url = item['url'],
-#                     state = item['state']
-#                 )
+    def process_item(self, item: SubCategoryItem | CategoryItem | ProductItem,
+                     spider: CategorySpider | SubCategorySpider | ProductSpider ) -> CategoryItem | SubCategoryItem | ProductItem:
+        self.session = Session()
+        if item['state'] == 'category':
+            category = self.session.query(CategoryModel).filter_by(name=item['name']).first()
+            if not category:
+                category = CategoryModel(
+                    name = item['name'],
+                    url = item['url'],
+                )
 
-#                 self.session.add(db_category)
-#                 self.session.commit()
-#             else:
-#                 logging.error(f'{item} already exits in {CategoryModele()}')
+                self.session.add(category)
+                self.session.commit()
+            else:
+                spider.logger.error(f'{item} already exits in {CategoryModel()}')
 
-#         elif item['state'] == 'sub_category':
-#             db_sub_category = self.session.query(SubCategoryModele).filter_by(name=item['name']).first()
-#             if not db_sub_category:
-#                 db_category: CategoryModele = self.session.query(CategoryModele).filter_by(url=item['super_category_url']).first()
-#                 if db_category:
-#                     db_sub_category = SubCategoryModele(
-#                         name = item['name'],
-#                         url = item['url'],
-#                         state = item['state'],
-#                         id_super_category = db_category.id
-#                     )
+        elif item['state'] == 'sub_category':
+            sub_category = self.session.query(SubCategoryModel).filter_by(name=item['name']).first()
+            if not sub_category:
+                category: CategoryModel = self.session.query(CategoryModel).filter_by(url=item['super_category_url']).first()
+                if category:
+                    sub_category = SubCategoryModel(
+                        name = item['name'],
+                        url = item['url'],
+                        id_super_category = category.id
+                    )
 
-#                     self.session.add(db_sub_category)
-#                     self.session.commit()
-#                 else:
-#                     logging.error(f"Category with {item['super_category_url']} not found in {CategoryModele()}")
-#             else:
-#                 logging.error(f'{item['name']} already exits in {SubCategoryModele()}')
-#         self.session.close()
-#         return item
+                    self.session.add(sub_category)
+                    self.session.commit()
+                else:
+                    spider.logger.error(f"Category with {item['super_category_url']} not found in {CategoryModel}")
+            else:
+                spider.logger.error(f'{item['name']} already exits in {SubCategoryModel}')
+        elif isinstance(item, ProductItem):
+            product = self.session.query(ProductModel).filter_by(name=item['name']).first()
+            if not product:
+                sub_category: SubCategoryModel = self.session.query(SubCategoryModel).filter_by(url=item['url']).first()
+                if sub_category:
+                    product = ProductModel(
+                        name = item['name'],
+                        url = item['url'],
+                        description = item['description'],
+                        id_sub_category = sub_category.id,
+                    )
+                    
+                    self.session.add(product)
+                    self.session.commit()
+                else:
+                    spider.logger.error(f"SubCategory with {item['url']} not found in {SubCategoryModel}")
+            else:
+                spider.logger.error(f'{item['name']} already exits in {ProductModel}')
+
+        self.session.close()
+        return item

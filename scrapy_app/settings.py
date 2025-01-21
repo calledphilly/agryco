@@ -21,18 +21,19 @@ USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 ROBOTSTXT_OBEY = True
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-#CONCURRENT_REQUESTS = 32
+# CONCURRENT_REQUESTS = 32
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-#DOWNLOAD_DELAY = 3
+# DOWNLOAD_DELAY = 3
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
 
 # Disable cookies (enabled by default)
 #COOKIES_ENABLED = False
+
 COOKIES_DEBUG = True
 
 # Disable Telnet Console (enabled by default)
@@ -72,12 +73,12 @@ ITEM_PIPELINES = {
     "scrapy_app.pipelines.WashItemPipeline": 301,
     "scrapy_app.pipelines.DefaultFieldPipeline": 302,
     "scrapy_app.pipelines.DuplicatesItemPipeline": 303,
-    # "scrapy_app.pipelines.PostgresqlPipeline": 304,
+    "scrapy_app.pipelines.PostgresqlPipeline": 304,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
-#AUTOTHROTTLE_ENABLED = True
+# AUTOTHROTTLE_ENABLED = True
 # The initial download delay
 #AUTOTHROTTLE_START_DELAY = 5
 # The maximum download delay to be set in case of high latencies

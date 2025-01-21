@@ -29,3 +29,5 @@ class ProductItem(scrapy.Item):
     url = scrapy.Field()
     description = scrapy.Field()
     price = scrapy.Field()
+    
+    super_category_url = scrapy.Field()
