@@ -115,6 +115,7 @@ class PostgresqlPipeline:
                         name = item['name'],
                         url = item['url'],
                         description = item['description'],
+                        price = item['price'],
                         id_sub_category = sub_category.id,
                     )
                     

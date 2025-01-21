@@ -37,6 +37,7 @@ class ProductModel(Base):
     name = Column(String)
     url = Column(String)
     description = Column(String)
+    price = Column(String)
     id_super_category = Column(Integer, ForeignKey('sub_categories.id'))
 
     sub_category = relationship('SubCategoryModele', back_populates='product')
