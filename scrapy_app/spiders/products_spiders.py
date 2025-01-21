@@ -1,6 +1,8 @@
 from collections.abc import Iterable
+import os
 from typing import Any
 
+from dotenv import load_dotenv
 import scrapy
 from bs4 import BeautifulSoup
 from scrapy.http import HtmlResponse
@@ -8,6 +10,11 @@ from scrapy.http import HtmlResponse
 from scrapy_app.items import CategoryItem, ProductItem, SubCategoryItem
 from scrapy_app.models import Session, SubCategoryModel
 
+# Charge le fichier .env
+load_dotenv()
+
+# Accède aux variables d'environnement
+EMAIL = os.getenv('EMAIL')
 
 class ProductTestSpider(scrapy.Spider):
     name = "product_test"
