@@ -15,7 +15,7 @@ class CategoryModel(Base):
     name = Column(String)
     url = Column(String)
 
-    sub_category = relationship('SubCategoryModele', back_populates='category')
+    sub_category = relationship('SubCategoryModel', back_populates='category')
 
 
 class SubCategoryModel(Base):
@@ -26,8 +26,8 @@ class SubCategoryModel(Base):
     url = Column(String)
     id_super_category = Column(Integer, ForeignKey('categories.id'))
 
-    category = relationship('CategoryModele', back_populates='sub_category')
-    product = relationship('ProductModele', back_populates='sub_category')
+    category = relationship('CategoryModel', back_populates='sub_category')
+    product = relationship('ProductModel', back_populates='sub_category')
 
 
 class ProductModel(Base):
@@ -40,7 +40,7 @@ class ProductModel(Base):
     price = Column(String)
     id_super_category = Column(Integer, ForeignKey('sub_categories.id'))
 
-    sub_category = relationship('SubCategoryModele', back_populates='product')
+    sub_category = relationship('SubCategoryModel', back_populates='product')
 
 
 # "postgresql://user:password@localhost/database_name"

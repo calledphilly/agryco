@@ -87,7 +87,7 @@ class PostgresqlPipeline:
                 self.session.add(category)
                 self.session.commit()
             else:
-                spider.logger.error(f'{item} already exits in {CategoryModel()}')
+                spider.logger.error(f'{item} already exits in {CategoryModel}')
 
         elif item['state'] == 'sub_category':
             sub_category = self.session.query(SubCategoryModel).filter_by(name=item['name']).first()
