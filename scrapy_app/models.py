@@ -1,8 +1,12 @@
+import os
+
+from dotenv import load_dotenv
 from sqlalchemy import Column, ForeignKey, Integer, String, create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship, sessionmaker
 
-from agryco.scripts import sub_category
+load_dotenv()
+DATABASE_URL = os.getenv('DATABASE_URL')
 
 # creation de la base pour le modele de la table
 Base = declarative_base()
@@ -44,7 +48,6 @@ class ProductModel(Base):
 
 
 # "postgresql://user:password@localhost/database_name"
-DATABASE_URL = "postgresql://root:root@localhost:5432/agryco_db"
 
 # creation de l'engine
 engine = create_engine(DATABASE_URL, echo=True)

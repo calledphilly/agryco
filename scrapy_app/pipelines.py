@@ -13,8 +13,7 @@ from networkx import scale_free_graph
 from numpy import empty
 
 from scrapy_app.items import CategoryItem, ProductItem, SubCategoryItem
-from scrapy_app.models import (CategoryModel, ProductModel, Session,
-                               SubCategoryModel)
+from scrapy_app.models import CategoryModel, ProductModel, Session, SubCategoryModel
 from scrapy_app.spiders.categories_spiders import (CategorySpider,
                                                    SubCategorySpider)
 from scrapy_app.spiders.products_spiders import ProductSpider
@@ -45,10 +44,10 @@ class DuplicatesItemPipeline:
 class DefaultFieldPipeline:
 
     def process_item(self, item: SubCategoryItem | CategoryItem, spide) -> SubCategoryItem | CategoryItem:
-        if isinstance(item, CategoryItem):
+        if isinstance(item, CategoryItem) and not isinstance(item, SubCategoryItem) :
             item['state'] = 'category'
 
-        if isinstance(item, SubCategoryItem):
+        elif isinstance(item, SubCategoryItem):
             item['state'] = 'sub_category'
 
         return item
@@ -56,7 +55,7 @@ class DefaultFieldPipeline:
 
 class WashItemPipeline:
     def process_item(self, item: SubCategoryItem | CategoryItem | ProductItem, spider) -> SubCategoryItem | CategoryItem | ProductItem:
-        if isinstance(item, SubCategoryItem) or isinstance(item, CategoryItem):
+        if isinstance(item, CategoryItem):
             item['name'] = item['name'].replace("(", "").replace(")", "")
             item['name'] = re.sub(r'\d+', '', item['name'])
             item['name'] = item['name'].strip()
@@ -76,7 +75,7 @@ class PostgresqlPipeline:
     def process_item(self, item: SubCategoryItem | CategoryItem | ProductItem,
                      spider: CategorySpider | SubCategorySpider | ProductSpider ) -> CategoryItem | SubCategoryItem | ProductItem:
         self.session = Session()
-        if item['state'] == 'category':
+        if isinstance(item, CategoryItem) and not isinstance(item, SubCategoryItem):
             category = self.session.query(CategoryModel).filter_by(name=item['name']).first()
             if not category:
                 category = CategoryModel(
@@ -87,9 +86,9 @@ class PostgresqlPipeline:
                 self.session.add(category)
                 self.session.commit()
             else:
-                spider.logger.error(f'{item} already exits in {CategoryModel}')
+                spider.logger.error(f'{item} already exits in {CategoryModel()}')
 
-        elif item['state'] == 'sub_category':
+        elif isinstance(item, SubCategoryItem):
             sub_category = self.session.query(SubCategoryModel).filter_by(name=item['name']).first()
             if not sub_category:
                 category: CategoryModel = self.session.query(CategoryModel).filter_by(url=item['super_category_url']).first()
@@ -103,9 +102,10 @@ class PostgresqlPipeline:
                     self.session.add(sub_category)
                     self.session.commit()
                 else:
-                    spider.logger.error(f"Category with {item['super_category_url']} not found in {CategoryModel}")
+                    spider.logger.error(f"Category with {item['super_category_url']} not found in {CategoryModel()}")
             else:
-                spider.logger.error(f'{item['name']} already exits in {SubCategoryModel}')
+                spider.logger.error(f'{item['name']} already exits in {SubCategoryModel()}')
+            
         elif isinstance(item, ProductItem):
             product = self.session.query(ProductModel).filter_by(name=item['name']).first()
             if not product:
@@ -122,9 +122,9 @@ class PostgresqlPipeline:
                     self.session.add(product)
                     self.session.commit()
                 else:
-                    spider.logger.error(f"SubCategory with {item['url']} not found in {SubCategoryModel}")
+                    spider.logger.error(f"SubCategory with {item['url']} not found in {SubCategoryModel()}")
             else:
-                spider.logger.error(f'{item['name']} already exits in {ProductModel}')
+                spider.logger.error(f'{item['name']} already exits in {ProductModel()}')
 
         self.session.close()
         return item

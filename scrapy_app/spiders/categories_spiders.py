@@ -6,10 +6,8 @@ from scrapy.http import HtmlResponse
 
 from scrapy_app.items import CategoryItem, SubCategoryItem
 
-# Charge le fichier .env
-load_dotenv()
 
-# Accède aux variables d'environnement
+load_dotenv()
 EMAIL = os.getenv('EMAIL')
 
 
