@@ -179,7 +179,7 @@ class ProductSpider(scrapy.Spider):
             return
 
         for sub_category in self.sub_categories:
-            self.logger.info(f'url : {sub_category.url}')
+            # self.logger.info(f'url : {sub_category.url}')
             yield response.follow(sub_category.url, self.follow_product, meta={"playwright_wait_loading_products": True})
 
     def follow_product(self, response: HtmlResponse):

@@ -28,7 +28,7 @@ class SubCategoryModel(Base):
     id = Column(Integer, primary_key=True)
     name = Column(String)
     url = Column(String)
-    id_super_category = Column(Integer, ForeignKey('categories.id'))
+    id_category = Column(Integer, ForeignKey('categories.id'))
 
     category = relationship('CategoryModel', back_populates='sub_category')
     product = relationship('ProductModel', back_populates='sub_category')
@@ -42,7 +42,7 @@ class ProductModel(Base):
     url = Column(String)
     description = Column(String)
     price = Column(String)
-    id_super_category = Column(Integer, ForeignKey('sub_categories.id'))
+    id_sub_category = Column(Integer, ForeignKey('sub_categories.id'))
 
     sub_category = relationship('SubCategoryModel', back_populates='product')
 

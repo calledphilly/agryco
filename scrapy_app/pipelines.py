@@ -96,7 +96,7 @@ class PostgresqlPipeline:
                     sub_category = SubCategoryModel(
                         name = item['name'],
                         url = item['url'],
-                        id_super_category = category.id
+                        id_category = category.id
                     )
 
                     self.session.add(sub_category)
@@ -109,7 +109,7 @@ class PostgresqlPipeline:
         elif isinstance(item, ProductItem):
             product = self.session.query(ProductModel).filter_by(name=item['name']).first()
             if not product:
-                sub_category: SubCategoryModel = self.session.query(SubCategoryModel).filter_by(url=item['url']).first()
+                sub_category: SubCategoryModel = self.session.query(SubCategoryModel).filter_by(url=item['super_category_url']).first()
                 if sub_category:
                     product = ProductModel(
                         name = item['name'],
@@ -122,7 +122,7 @@ class PostgresqlPipeline:
                     self.session.add(product)
                     self.session.commit()
                 else:
-                    spider.logger.error(f"SubCategory with {item['url']} not found in {SubCategoryModel()}")
+                    spider.logger.error(f"SubCategory with {item['super_category_url']} not found in {SubCategoryModel()}")
             else:
                 spider.logger.error(f'{item['name']} already exits in {ProductModel()}')
 
