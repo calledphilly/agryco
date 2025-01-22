@@ -1,9 +1,9 @@
-from collections.abc import Iterable
 import os
+from collections.abc import Iterable
 
-from dotenv import load_dotenv
 import scrapy
 from bs4 import BeautifulSoup
+from dotenv import load_dotenv
 from scrapy.http import HtmlResponse
 
 from scrapy_app.items import CategoryItem, ProductItem, SubCategoryItem
@@ -13,6 +13,7 @@ from scrapy_app.models import Session, SubCategoryModel
 load_dotenv()
 # Accède aux variables d'environnement
 EMAIL = os.getenv('EMAIL')
+
 
 class ProductTestSpider(scrapy.Spider):
     name = "product_test"
@@ -151,7 +152,7 @@ class ProductSpider(scrapy.Spider):
     name = "product"
     allowed_domains = ["www.agryco.com"]
     start_urls = ["https://www.agryco.com"]
-    
+
     session = Session()
     sub_categories = session.query(SubCategoryModel).all()
 

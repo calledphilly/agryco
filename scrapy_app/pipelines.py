@@ -13,7 +13,8 @@ from networkx import scale_free_graph
 from numpy import empty
 
 from scrapy_app.items import CategoryItem, ProductItem, SubCategoryItem
-from scrapy_app.models import CategoryModel, ProductModel, Session, SubCategoryModel
+from scrapy_app.models import (CategoryModel, ProductModel, Session,
+                               SubCategoryModel)
 from scrapy_app.spiders.categories_spiders import (CategorySpider,
                                                    SubCategorySpider)
 from scrapy_app.spiders.products_spiders import ProductSpider
