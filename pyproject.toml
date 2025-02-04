@@ -9,6 +9,7 @@ readme = "README.md"
 category = "agryco.scripts:category"
 sub-category = "agryco.scripts:sub_category"
 product = "agryco.scripts:product"
+ss = "agryco.scripts:ss"
 
 [tool.poetry.dependencies]
 python = "^3.13"

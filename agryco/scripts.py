@@ -18,3 +18,6 @@ def sub_category():
 
 def product():
     subprocess.run(['scrapy', 'crawl', 'product', '-O', f'scrapy_app/spiders/output/product.{args.output}'])
+
+def ss():
+    subprocess.run(['scrapy', 'crawl', 'ss', '-O', f'scrapy_app/spiders/output/ss.{args.output}'])

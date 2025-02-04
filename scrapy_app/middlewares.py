@@ -8,7 +8,7 @@ import scrapy
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter, is_item
 from playwright.async_api import async_playwright
-from scrapy import Request, signals
+from scrapy import signals
 from scrapy.exceptions import IgnoreRequest
 from scrapy.http import HtmlResponse
 from scrapy.exceptions import IgnoreRequest
@@ -24,7 +24,7 @@ class PlaywrightMiddleware:
                 page = await browser.new_page()
 
                 try:
-                    spider.logger.info(f"Accès à {request.url}")
+                    # spider.logger.info(f"Accès à {request.url}")
                     # redirection vers l'url
                     await page.goto(request.url
                                     # , timeout=10000
@@ -33,15 +33,22 @@ class PlaywrightMiddleware:
                     try:
                         # await page.wait_for_selector('//*[@id="user-menu-location"]', timeout=5000)
                         # await page.click('//*[@id="user-menu-location"]')
-                        await page.wait_for_selector('//button[@data-modal-toggler-modal-outlet="#geolocation-modal"]', timeout=5000)
+                        await page.wait_for_selector('//button[@data-modal-toggler-modal-outlet="#geolocation-modal"]', timeout=3000)
                         await page.click('//button[@data-modal-toggler-modal-outlet="#geolocation-modal"]')
-                        await page.wait_for_timeout(2000)
-                        spider.logger.info("Bouton cliqué")
+                        await page.wait_for_timeout(300)
+                        # spider.logger.info("Bouton cliqué")
                         form = await page.query_selector('form#postcode-popup-form')
                         if not form:
                             spider.logger.error("Formulaire introuvable après l'ouverture de la modale")
+                            raise IgnoreRequest()
                         else:
-                            spider.logger.info("Formulaire détecté")
+                            # Remplir un champ
+                            await page.fill("#town_email_town__postcode", "92000")
+                            # Optionnel : déclencher un événement de saisie
+                            await page.dispatch_event("#town_email_town__postcode", "input")
+                            # spider.logger.info("Formulaire détecté")
+                            
+                            pass
                     except Exception as e:
                         spider.logger.error(f"Erreur lors du clic : {e}")
                     
@@ -63,6 +70,8 @@ class PlaywrightMiddleware:
                     await browser.close()
         
         elif request.meta.get("playwright_wait_loading_products"):
+            timeout = request.meta.get('timeout')
+            spider.logger.info(f'timeout: {timeout} milliseconds\n')
             async with async_playwright() as p:
                 # Lancement avec chromium sans interface graphique
                 browser = await p.chromium.launch(headless=True)
@@ -70,11 +79,13 @@ class PlaywrightMiddleware:
                 page = await browser.new_page()
                 
                 try:
-                    spider.logger.info(f"Accès à {request.url}")
+                    # spider.logger.info(f"Accès à {request.url}")
                     # redirection vers l'url
                     await page.goto(request.url)
-                    await page.wait_for_timeout(10000)
-                    
+                    spider.logger.info('Start timer')
+                    # await page.wait_for_timeout(2500)
+                    await page.wait_for_timeout(timeout)
+                    spider.logger.info('End timer')
                     content = await page.content()
                     response = HtmlResponse(
                             url=request.url,
